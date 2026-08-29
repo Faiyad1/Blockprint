@@ -20,6 +20,18 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
 .hud-top h1 { margin: 0; font-size: 1.4rem; letter-spacing: 0.02em; }
 .hud-top .tag { margin: 2px 0 10px; color: var(--muted); font-size: 0.85rem; }
 
+.mode-toggle {
+  pointer-events: auto; margin-bottom: 10px;
+  background: var(--panel); color: var(--text);
+  border: 1px solid var(--panel-border); border-radius: 8px;
+  padding: 6px 12px; font-size: 0.85rem; cursor: pointer;
+}
+.mode-toggle:hover { border-color: var(--accent); }
+.mode-toggle kbd {
+  background: rgba(255,255,255,0.12); border-radius: 4px; padding: 1px 5px;
+  font-size: 0.75rem; margin-left: 4px;
+}
+
 .persona-bar { display: flex; flex-wrap: wrap; gap: 6px; pointer-events: auto; align-items: flex-start; }
 .chip {
   background: var(--panel); color: var(--text);

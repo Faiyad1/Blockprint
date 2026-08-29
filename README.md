@@ -12,7 +12,14 @@ npm install
 npm run dev
 ```
 
-Opens on a fake 20-block dataset so the frontend works immediately. Real data comes from the pipeline:
+Opens on a fake 20-block dataset so the frontend works immediately.
+
+**Photorealistic city mode** (optional): create `app/.env` containing
+`VITE_GOOGLE_TILES_KEY=<Google Cloud Map Tiles API key>`, restart `npm run dev`,
+then press **B** or the "show real Sydney" button. Without a key the app is
+fully offline-capable and stays in data mode.
+
+Real data comes from the pipeline:
 
 ```bash
 cd pipeline
