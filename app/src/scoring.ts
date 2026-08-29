@@ -56,6 +56,51 @@ export function composite(
   return Math.round(Math.max(0, Math.min(100, score)));
 }
 
+// Every individual characteristic a block is scored on (property key = the
+// GeoJSON column). Used by the Detailed weights mode.
+export const VARIANT_INFO: { key: string; label: string; group: string }[] = [
+  { key: "transit_any", label: "Transit stops", group: "Transit" },
+  { key: "transit_step_free", label: "Step-free transit", group: "Transit" },
+  { key: "transit_late", label: "Late-night services", group: "Transit" },
+  { key: "walk_general", label: "Footpaths", group: "Walkability" },
+  { key: "walk_ramps", label: "Kerb ramps", group: "Walkability" },
+  { key: "walk_controlled", label: "Safe crossings", group: "Walkability" },
+  { key: "walk_tactile", label: "Tactile paving", group: "Walkability" },
+  { key: "walk_lit", label: "Street lighting", group: "Walkability" },
+  { key: "amen_general", label: "Everyday amenities", group: "Amenities" },
+  { key: "amen_accessible", label: "Accessible toilets", group: "Amenities" },
+  { key: "amen_family", label: "Family facilities", group: "Amenities" },
+  { key: "amen_essentials", label: "Pharmacy / GP / market", group: "Amenities" },
+  { key: "green_general", label: "Parks", group: "Green space" },
+  { key: "green_play", label: "Playgrounds", group: "Green space" },
+];
+
+// Detailed mode: weighted sum over any set of individual characteristics.
+export function compositeAdvanced(
+  props: BlockProps,
+  weights: Record<string, number>
+): number {
+  let total = 0;
+  let wsum = 0;
+  for (const { key } of VARIANT_INFO) {
+    const w = weights[key] ?? 0;
+    if (w <= 0) continue;
+    const v = props[key];
+    total += w * (typeof v === "number" ? v : 0);
+    wsum += w;
+  }
+  return wsum > 0 ? Math.round(Math.max(0, Math.min(100, total / wsum))) : 0;
+}
+
+// A persona expressed as detailed weights — its chosen variant per subscore
+// gets the persona weight, every other characteristic starts at zero.
+export function personaAsDetailed(p: Persona): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const { key } of VARIANT_INFO) out[key] = 0;
+  for (const sub of SUBS) out[`${sub}_${p.variants[sub]}`] = p.weights[sub];
+  return out;
+}
+
 // Colorblind-safe viridis-style ramp, dark-purple (0) -> teal -> yellow (100).
 const RAMP: [number, [number, number, number]][] = [
   [0, [68, 1, 84]],

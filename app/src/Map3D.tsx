@@ -5,7 +5,7 @@ import { GeoJsonLayer } from "@deck.gl/layers";
 import { Tile3DLayer } from "@deck.gl/geo-layers";
 import { Map } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { composite, scoreColor, type Persona, type Sub } from "./scoring";
+import { composite, compositeAdvanced, scoreColor, type Persona, type Sub } from "./scoring";
 import type { Feature, FeatureCollection } from "geojson";
 
 // Photorealistic city mode: put the Google Cloud Map Tiles key in app/.env as
@@ -67,13 +67,18 @@ interface Props {
   buildings: FeatureCollection | null;
   persona: Persona;
   customWeights: Record<Sub, number> | undefined;
+  detailedWeights: Record<string, number> | null;
   selected: Feature | null;
   onSelect: (f: Feature | null) => void;
   mode: RenderMode;
 }
 
-export default function Map3D({ blocks, buildings, persona, customWeights, selected, onSelect, mode }: Props) {
+export default function Map3D({ blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, mode }: Props) {
   const mapStyle = useWaterStyle();
+  const score = (p: object) => {
+    const props = p as import("./scoring").BlockProps;
+    return detailedWeights ? compositeAdvanced(props, detailedWeights) : composite(props, persona, customWeights);
+  };
   const cityMode = mode === "city";
   const [viewState, setViewState] = useState<Record<string, unknown>>(OPENING_VIEW);
 
@@ -123,9 +128,9 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
         highlightColor: [255, 255, 255, 90],
         // translucent over the photorealistic city so Sydney shows through
         opacity: cityMode ? 0.45 : 0.85,
-        getElevation: (f) => composite(f.properties ?? {}, persona, customWeights) * ELEVATION_SCALE,
+        getElevation: (f) => score(f.properties ?? {}) * ELEVATION_SCALE,
         getFillColor: (f) => {
-          const s = composite(f.properties ?? {}, persona, customWeights);
+          const s = score(f.properties ?? {});
           const [r, g, b] = scoreColor(s);
           const isSel = selected?.properties?.mb === f.properties?.mb;
           return [r, g, b, isSel ? 255 : 200];
@@ -134,15 +139,16 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
         lineWidthMinPixels: 1,
         // re-run accessors (not geometry upload) when the persona math changes
         updateTriggers: {
-          getElevation: [persona.id, customWeights],
-          getFillColor: [persona.id, customWeights, selected?.properties?.mb],
+          getElevation: [persona.id, customWeights, detailedWeights],
+          getFillColor: [persona.id, customWeights, detailedWeights, selected?.properties?.mb],
         },
         transitions: { getElevation: 350, getFillColor: 350 },
         onClick: (info) => onSelect((info.object as Feature) ?? null),
       })
     );
     return out;
-  }, [blocks, buildings, persona, customWeights, selected, onSelect, cityMode, useGoogleTiles]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles]);
 
   return (
     <DeckGL
@@ -155,8 +161,41 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
       getTooltip={({ object }) => {
         const f = object as Feature | undefined;
         if (!f?.properties) return null;
-        const s = composite(f.properties, persona, customWeights);
-        return { text: `Block ${f.properties.mb}\n${persona.label}: ${s}/100` };
+        const p = f.properties;
+        const s = score(p);
+        const [r, g, b] = scoreColor(s);
+        const sub = (k: Sub) => {
+          const v = p[`${k}_${persona.variants[k]}`];
+          return typeof v === "number" ? v : 0;
+        };
+        const bar = (label: string, v: number) =>
+          `<div style="display:flex;align-items:center;gap:6px;margin:2px 0">
+             <span style="width:74px;color:#9aa4ad">${label}</span>
+             <span style="width:60px;height:5px;background:#333;border-radius:3px;overflow:hidden;display:inline-block">
+               <span style="display:block;height:100%;width:${v}%;background:#35b8a6"></span>
+             </span>
+             <span style="width:22px;text-align:right;font-variant-numeric:tabular-nums">${v}</span>
+           </div>`;
+        const fix = p.fix as { what: string; gain: number } | null;
+        return {
+          html: `
+            <div style="font-size:12px;line-height:1.35">
+              <div style="color:#9aa4ad">Block ${p.mb}</div>
+              <div style="font-size:18px;font-weight:700;color:rgb(${r},${g},${b})">${s}<span style="font-size:11px;color:#9aa4ad;font-weight:400">/100 · ${persona.label}</span></div>
+              ${bar("Transit", sub("transit"))}
+              ${bar("Walkability", sub("walk"))}
+              ${bar("Amenities", sub("amen"))}
+              ${bar("Green", sub("green"))}
+              ${fix ? `<div style="margin-top:4px;color:#35b8a6">↑ ${fix.what} (+${fix.gain})</div>` : ""}
+            </div>`,
+          style: {
+            backgroundColor: "rgba(16,20,26,0.92)",
+            border: "1px solid rgba(255,255,255,0.15)",
+            borderRadius: "8px",
+            padding: "8px 10px",
+            color: "#edeae2",
+          },
+        };
       }}
     >
       {/* Google tiles bring their own ground; OSM-buildings mode keeps the basemap */}

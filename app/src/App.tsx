@@ -4,6 +4,7 @@ import Map3D, { type RenderMode } from "./Map3D";
 import PersonaBar from "./PersonaBar";
 import BlockPanel from "./BlockPanel";
 import CustomSliders from "./CustomSliders";
+import WeightsPanel from "./WeightsPanel";
 import Legend from "./Legend";
 import personasData from "./personas.json";
 import type { Persona, Sub } from "./scoring";
@@ -23,6 +24,8 @@ export default function App() {
   const [showWeights, setShowWeights] = useState(false);
   // user-tuned coefficient override; null = use the persona's own weights
   const [tuned, setTuned] = useState<Record<Sub, number> | null>(null);
+  // per-characteristic override (Detailed mode); non-null takes precedence
+  const [detailed, setDetailed] = useState<Record<string, number> | null>(null);
   const [buildings, setBuildings] = useState<FeatureCollection | null>(null);
 
   // 'B' toggles city/data mode — also the panic key if tiles fail live
@@ -56,6 +59,7 @@ export default function App() {
   const pickPersona = (p: Persona) => {
     setPersona(p);
     setTuned(null); // new persona starts from its own coefficients
+    setDetailed(null);
   };
 
   return (
@@ -64,6 +68,7 @@ export default function App() {
         blocks={blocks}
         persona={persona}
         customWeights={effectiveWeights}
+        detailedWeights={detailed}
         buildings={buildings}
         selected={selected}
         onSelect={setSelected}
@@ -80,20 +85,13 @@ export default function App() {
           🎛️ score weights
         </button>
         {showWeights && (
-          <div className="weights-panel">
-            <p className="weights-title">
-              Coefficients for <strong>{persona.label}</strong>
-              {tuned && <span className="tuned-flag"> (adjusted)</span>}
-            </p>
-            <CustomSliders
-              weights={tuned ?? persona.weights}
-              onChange={setTuned}
-            />
-            <button className="weights-reset" onClick={() => setTuned(null)} disabled={!tuned}>
-              Reset to {persona.label} defaults
-            </button>
-            <p className="weights-note">Weights are normalized by their sum — only the ratio matters.</p>
-          </div>
+          <WeightsPanel
+            persona={persona}
+            tuned={tuned}
+            onTune={setTuned}
+            detailed={detailed}
+            onDetail={setDetailed}
+          />
         )}
       </div>
       <Legend />
@@ -102,6 +100,7 @@ export default function App() {
           block={selected}
           persona={persona}
           customWeights={effectiveWeights}
+          detailedWeights={detailed}
           onClose={() => setSelected(null)}
         />
       )}

@@ -1,4 +1,4 @@
-import { composite, SUBS, type Persona, type Sub } from "./scoring";
+import { composite, compositeAdvanced, SUBS, type Persona, type Sub } from "./scoring";
 import type { Feature } from "geojson";
 
 const SUB_LABELS: Record<Sub, string> = {
@@ -44,12 +44,15 @@ interface Props {
   block: Feature;
   persona: Persona;
   customWeights: Record<Sub, number> | undefined;
+  detailedWeights: Record<string, number> | null;
   onClose: () => void;
 }
 
-export default function BlockPanel({ block, persona, customWeights, onClose }: Props) {
+export default function BlockPanel({ block, persona, customWeights, detailedWeights, onClose }: Props) {
   const props = block.properties ?? {};
-  const score = composite(props, persona, customWeights);
+  const score = detailedWeights
+    ? compositeAdvanced(props, detailedWeights)
+    : composite(props, persona, customWeights);
   const fix = props.fix as { what: string; gain: number; persona: string } | null;
 
   return (

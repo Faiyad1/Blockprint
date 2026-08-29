@@ -64,13 +64,29 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
 .weights-btn:hover { border-color: var(--accent); }
 .weights-panel {
   background: var(--panel); border: 1px solid var(--panel-border);
-  border-radius: 12px; padding: 12px 14px; width: 260px;
+  border-radius: 12px; padding: 12px 14px; width: 300px;
   backdrop-filter: blur(6px);
 }
-.weights-panel .sliders {
-  background: none; border: none; padding: 0; width: 100%; margin-top: 6px;
-}
 .weights-title { margin: 0; font-size: 0.85rem; }
+.weights-tabs { display: flex; gap: 4px; margin: 8px 0 6px; }
+.wtab {
+  flex: 1; background: none; color: var(--muted);
+  border: 1px solid var(--panel-border); border-radius: 6px;
+  padding: 4px 0; font-size: 0.78rem; cursor: pointer;
+}
+.wtab.active { background: var(--accent); color: #08110f; border-color: var(--accent); font-weight: 600; }
+.wsliders { display: grid; gap: 2px; }
+.wsliders.detailed { max-height: 46vh; overflow-y: auto; padding-right: 4px; }
+.wgroup {
+  margin: 8px 0 2px; font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--muted);
+}
+.wrow {
+  display: grid; grid-template-columns: 108px 1fr 34px;
+  align-items: center; gap: 6px; font-size: 0.78rem;
+}
+.wrow input { accent-color: var(--accent); width: 100%; min-width: 0; }
+.wpct { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 0.72rem; }
 .tuned-flag { color: var(--accent); }
 .weights-reset {
   margin-top: 10px; width: 100%;
