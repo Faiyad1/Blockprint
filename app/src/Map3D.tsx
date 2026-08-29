@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import DeckGL from "@deck.gl/react";
 import { FlyToInterpolator } from "@deck.gl/core";
-import { GeoJsonLayer } from "@deck.gl/layers";
+import { ColumnLayer, GeoJsonLayer, ScatterplotLayer } from "@deck.gl/layers";
 import { Tile3DLayer } from "@deck.gl/geo-layers";
 import { Map } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -71,9 +71,13 @@ interface Props {
   selected: Feature | null;
   onSelect: (f: Feature | null) => void;
   mode: RenderMode;
+  culture: FeatureCollection | null;
+  showCulture: boolean;
 }
 
-export default function Map3D({ blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, mode }: Props) {
+const CULTURE_PINK: [number, number, number] = [255, 92, 168];
+
+export default function Map3D({ blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, mode, culture, showCulture }: Props) {
   const mapStyle = useWaterStyle();
   const score = (p: object) => {
     const props = p as import("./scoring").BlockProps;
@@ -157,9 +161,38 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
         onClick: (info) => onSelect((info.object as Feature) ?? null),
       })
     );
+    if (showCulture && culture) {
+      const pos = (f: Feature) =>
+        (f.geometry as unknown as { coordinates: [number, number] }).coordinates;
+      // pin needles poking above the score prisms + a ground dot
+      out.push(
+        new ColumnLayer({
+          id: "culture-pins",
+          data: culture.features,
+          diskResolution: 6,
+          radius: 10,
+          getPosition: pos,
+          getElevation: 140,
+          getFillColor: [...CULTURE_PINK, 235],
+          pickable: true,
+        }),
+        new ScatterplotLayer({
+          id: "culture-dots",
+          data: culture.features,
+          getPosition: pos,
+          radiusMinPixels: 3,
+          radiusMaxPixels: 6,
+          getFillColor: [...CULTURE_PINK, 255],
+          getLineColor: [255, 255, 255, 200],
+          lineWidthMinPixels: 1,
+          stroked: true,
+          pickable: true,
+        })
+      );
+    }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scored, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles]);
+  }, [scored, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles, culture, showCulture]);
 
   return (
     <DeckGL
@@ -173,6 +206,19 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
         const f = object as Feature | undefined;
         if (!f?.properties) return null;
         const p = f.properties;
+        if (typeof p.name === "string" && typeof p.kind === "string") {
+          // culture pin
+          return {
+            html: `<div style="font-size:12px"><strong style="color:#ff5ca8">${p.name}</strong><br><span style="color:#9aa4ad">${p.kind}</span></div>`,
+            style: {
+              backgroundColor: "rgba(16,20,26,0.92)",
+              border: "1px solid rgba(255,92,168,0.5)",
+              borderRadius: "8px",
+              padding: "6px 10px",
+              color: "#edeae2",
+            },
+          };
+        }
         const s = score(p);
         const [r, g, b] = scoreColor(s);
         const sub = (k: Sub) => {

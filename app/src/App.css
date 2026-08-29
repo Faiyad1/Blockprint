@@ -32,6 +32,10 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
   font-size: 0.75rem; margin-left: 4px;
 }
 
+.bar-row { display: flex; align-items: flex-start; width: 100%; }
+.chip.culture { border-color: rgba(255, 92, 168, 0.5); pointer-events: auto; margin-left: auto; }
+.chip.active-culture { background: #ff5ca8; color: #1c0812; border-color: #ff5ca8; font-weight: 600; }
+
 .persona-bar { display: flex; flex-wrap: wrap; gap: 6px; pointer-events: auto; align-items: flex-start; }
 .chip {
   background: var(--panel); color: var(--text);

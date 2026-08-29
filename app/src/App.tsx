@@ -26,6 +26,8 @@ export default function App() {
   const [tuned, setTuned] = useState<Record<Sub, number> | null>(null);
   // per-characteristic override (Detailed mode); non-null takes precedence
   const [detailed, setDetailed] = useState<Record<string, number> | null>(null);
+  const [culture, setCulture] = useState<FeatureCollection | null>(null);
+  const [showCulture, setShowCulture] = useState(true);
   const [buildings, setBuildings] = useState<FeatureCollection | null>(null);
 
   // 'B' toggles city/data mode — also the panic key if tiles fail live
@@ -44,6 +46,10 @@ export default function App() {
       .then((r) => (r.ok ? r.json() : null))
       .then(setBuildings)
       .catch(() => setBuildings(null)); // optional layer — no error surfaced
+    fetch(`${import.meta.env.BASE_URL}culture.geojson`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then(setCulture)
+      .catch(() => setCulture(null)); // optional layer
   }, []);
 
   useEffect(() => {
@@ -73,11 +79,24 @@ export default function App() {
         selected={selected}
         onSelect={setSelected}
         mode={mode}
+        culture={culture}
+        showCulture={showCulture}
       />
       <header className="hud-top">
         <h1>Blockprint</h1>
         <p className="tag">the blocks that make up Sydney — scored for who you are</p>
-        <PersonaBar personas={PERSONAS} active={persona} onPick={pickPersona} />
+        <div className="bar-row">
+          <PersonaBar personas={PERSONAS} active={persona} onPick={pickPersona} />
+          {culture && (
+            <button
+              className={showCulture ? "chip culture active-culture" : "chip culture"}
+              onClick={() => setShowCulture((s) => !s)}
+              title="Historic landmarks: museums, historic sites, heritage buildings"
+            >
+              🎭 culture
+            </button>
+          )}
+        </div>
         {isCustom && <CustomSliders weights={customWeights} onChange={setCustomWeights} />}
       </header>
       <div className="weights-corner">

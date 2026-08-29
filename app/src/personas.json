@@ -50,6 +50,16 @@
     "rules": []
   },
   {
+    "id": "tourist",
+    "label": "Tourist",
+    "emoji": "🧳",
+    "core": true,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.35, "walk": 0.25, "amen": 0.3, "green": 0.1 },
+    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
     "id": "nightshift",
     "label": "Night-shift worker",
     "emoji": "🌙",
@@ -67,16 +77,6 @@
     "decay": { "full": 100, "zero": 400 },
     "weights": { "transit": 0.1, "walk": 0.25, "amen": 0.35, "green": 0.3 },
     "variants": { "transit": "any", "walk": "general", "amen": "essentials", "green": "play" },
-    "rules": []
-  },
-  {
-    "id": "tourist",
-    "label": "Tourist",
-    "emoji": "🧳",
-    "core": false,
-    "decay": { "full": 200, "zero": 800 },
-    "weights": { "transit": 0.35, "walk": 0.25, "amen": 0.3, "green": 0.1 },
-    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
     "rules": []
   },
   {
