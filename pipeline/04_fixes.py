@@ -81,7 +81,9 @@ def main() -> None:
     # nearest named street for a human-readable location
     where = [""] * len(blocks)
     if named is not None and not named.empty:
-        cent = blocks.set_geometry(blocks.centroid)
+        # geometry-only left side: blocks now carry their own "name" column,
+        # which would collide with the street name in the join
+        cent = gpd.GeoDataFrame(geometry=blocks.centroid, index=blocks.index, crs=blocks.crs)
         near = gpd.sjoin_nearest(cent, named, distance_col="d", max_distance=500)
         first = near.groupby(level=0).first()
         for i, row in first.iterrows():

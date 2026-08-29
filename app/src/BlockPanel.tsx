@@ -58,7 +58,10 @@ export default function BlockPanel({ block, persona, customWeights, detailedWeig
   return (
     <aside className="block-panel">
       <button className="close" onClick={onClose} aria-label="Close panel">×</button>
-      <h2>Block {String(props.mb)}</h2>
+      <h2>
+        {typeof props.name === "string" && props.name ? props.name : "Block"}{" "}
+        <span className="mb-code">(Block {String(props.mb)})</span>
+      </h2>
       <div className="big-score">
         {score}<span className="denom">/100</span>
         <span className="for"> for {persona.label.toLowerCase()}</span>

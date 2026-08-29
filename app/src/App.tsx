@@ -3,7 +3,6 @@ import type { Feature, FeatureCollection } from "geojson";
 import Map3D, { type RenderMode } from "./Map3D";
 import PersonaBar from "./PersonaBar";
 import BlockPanel from "./BlockPanel";
-import CustomSliders from "./CustomSliders";
 import WeightsPanel from "./WeightsPanel";
 import Legend from "./Legend";
 import personasData from "./personas.json";
@@ -15,9 +14,6 @@ const PERSONAS = personasData as Persona[];
 export default function App() {
   const [blocks, setBlocks] = useState<FeatureCollection | null>(null);
   const [persona, setPersona] = useState<Persona>(PERSONAS[0]);
-  const [customWeights, setCustomWeights] = useState<Record<Sub, number>>(
-    PERSONAS.find((p) => p.id === "custom")!.weights
-  );
   const [selected, setSelected] = useState<Feature | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<RenderMode>("city");
@@ -59,8 +55,7 @@ export default function App() {
       .catch((e) => setError(`Couldn't load blocks.geojson: ${e.message}`));
   }, []);
 
-  const isCustom = persona.id === "custom";
-  const effectiveWeights = tuned ?? (isCustom ? customWeights : undefined);
+  const effectiveWeights = tuned ?? undefined;
 
   const pickPersona = (p: Persona) => {
     setPersona(p);
@@ -97,7 +92,6 @@ export default function App() {
             </button>
           )}
         </div>
-        {isCustom && <CustomSliders weights={customWeights} onChange={setCustomWeights} />}
       </header>
       <div className="weights-corner">
         <button className="weights-btn" onClick={() => setShowWeights((s) => !s)}>

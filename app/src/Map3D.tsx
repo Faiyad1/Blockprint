@@ -237,7 +237,7 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
         return {
           html: `
             <div style="font-size:12px;line-height:1.35">
-              <div style="color:#9aa4ad">Block ${p.mb}</div>
+              <div><strong>${typeof p.name === "string" && p.name ? p.name : "Unknown area"}</strong> <span style="color:#9aa4ad">(Block ${p.mb})</span></div>
               <div style="font-size:18px;font-weight:700;color:rgb(${r},${g},${b})">${s}<span style="font-size:11px;color:#9aa4ad;font-weight:400">/100 · ${persona.label}</span></div>
               ${bar("Transit", sub("transit"))}
               ${bar("Walkability", sub("walk"))}

@@ -89,7 +89,7 @@ def main() -> None:
     b["explain"] = ""    # stretch: LLM pass
 
     for col in b.columns:
-        if col not in ("mb", "cat", "geometry", "fix", "explain", "arterial"):
+        if col not in ("mb", "cat", "name", "geometry", "fix", "explain", "arterial"):
             b[col] = b[col].round(0).astype(int)
 
     b.to_crs(CRS_WEB).to_file(OUT, driver="GeoJSON")
