@@ -43,7 +43,7 @@ function useWaterStyle(): MapStyle {
 // minZoom locks zoom-out at the home framing — the city never shrinks to a dot.
 const HOME_VIEW = {
   longitude: 151.205,
-  latitude: -33.876,
+  latitude: -33.898,
   zoom: 13.5,
   minZoom: 13.5,
   maxZoom: 18,
@@ -57,7 +57,7 @@ const BOUNDS = { west: 151.16, east: 151.25, south: -33.93, north: -33.84 };
 // opening shot: same zoom (can't start below the floor), flat, then tilt in
 const OPENING_VIEW = {
   longitude: 151.205,
-  latitude: -33.876,
+  latitude: -33.898,
   zoom: 13.5,
   minZoom: 13.5,
   maxZoom: 18,
