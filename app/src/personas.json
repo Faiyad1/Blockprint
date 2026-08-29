@@ -33,7 +33,7 @@
     "id": "older",
     "label": "Older resident",
     "emoji": "🧓",
-    "core": true,
+    "core": false,
     "decay": { "full": 150, "zero": 400 },
     "weights": { "transit": 0.3, "walk": 0.3, "amen": 0.25, "green": 0.15 },
     "variants": { "transit": "any", "walk": "controlled", "amen": "general", "green": "general" },
@@ -41,7 +41,7 @@
   },
   {
     "id": "lowvision",
-    "label": "Low vision",
+    "label": "Low vision/blind",
     "emoji": "🦯",
     "core": true,
     "decay": { "full": 200, "zero": 600 },
@@ -60,10 +60,20 @@
     "rules": []
   },
   {
+    "id": "nocar",
+    "label": "No-car household",
+    "emoji": "🚌",
+    "core": true,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.4, "walk": 0.2, "amen": 0.35, "green": 0.05 },
+    "variants": { "transit": "any", "walk": "general", "amen": "essentials", "green": "general" },
+    "rules": []
+  },
+  {
     "id": "nightshift",
-    "label": "Night-shift worker",
+    "label": "After dark",
     "emoji": "🌙",
-    "core": false,
+    "core": true,
     "decay": { "full": 200, "zero": 800 },
     "weights": { "transit": 0.5, "walk": 0.3, "amen": 0.15, "green": 0.05 },
     "variants": { "transit": "late", "walk": "lit", "amen": "general", "green": "general" },
@@ -80,16 +90,6 @@
     "rules": []
   },
   {
-    "id": "kid",
-    "label": "Kid walking to school",
-    "emoji": "🎒",
-    "core": false,
-    "decay": { "full": 200, "zero": 800 },
-    "weights": { "transit": 0.1, "walk": 0.45, "amen": 0.15, "green": 0.3 },
-    "variants": { "transit": "any", "walk": "controlled", "amen": "general", "green": "play" },
-    "rules": ["arterial_penalty"]
-  },
-  {
     "id": "cyclist",
     "label": "Cyclist",
     "emoji": "🚲",
@@ -99,15 +99,5 @@
     "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
     "rules": [],
     "note": "walk weight stands in for the cycle subscore until 03_score ships it"
-  },
-  {
-    "id": "nocar",
-    "label": "No-car household",
-    "emoji": "🚌",
-    "core": false,
-    "decay": { "full": 200, "zero": 800 },
-    "weights": { "transit": 0.4, "walk": 0.2, "amen": 0.35, "green": 0.05 },
-    "variants": { "transit": "any", "walk": "general", "amen": "essentials", "green": "general" },
-    "rules": []
   }
 ]
