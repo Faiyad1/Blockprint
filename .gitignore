@@ -3,6 +3,8 @@ PLAN.md
 node_modules/
 dist/
 data/interim/
+# ABS zips exceed GitHub's 100MB limit — re-downloadable, see pipeline/01_blocks.py
+data/raw/*.zip
 __pycache__/
 .env
 *.log
