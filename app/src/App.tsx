@@ -37,14 +37,14 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    fetch("/buildings.geojson")
+    fetch(`${import.meta.env.BASE_URL}buildings.geojson`)
       .then((r) => (r.ok ? r.json() : null))
       .then(setBuildings)
       .catch(() => setBuildings(null)); // optional layer — no error surfaced
   }, []);
 
   useEffect(() => {
-    fetch("/blocks.geojson")
+    fetch(`${import.meta.env.BASE_URL}blocks.geojson`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
       .then(setBlocks)
       .catch((e) => setError(`Couldn't load blocks.geojson: ${e.message}`));
