@@ -56,7 +56,8 @@ OSM_QUERIES = {
     "footpaths": f'way["highway"~"footway|path|pedestrian"]({S},{W},{N},{E});',
     "arterial": f'way["highway"~"primary|secondary|trunk"]({S},{W},{N},{E});',
     "lit_paths": f'way["highway"]["lit"="yes"]({S},{W},{N},{E});',
-    "parks": f'way["leisure"~"park|garden"]({S},{W},{N},{E});',
+    # relations too — big parks (Centennial!) are mapped as OSM relations
+    "parks": f'way["leisure"~"park|garden"]({S},{W},{N},{E});relation["leisure"~"park|garden"]({S},{W},{N},{E});',
 }
 
 

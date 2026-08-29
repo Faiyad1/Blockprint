@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-08-29T06:11:57Z",
+    "timestamp_osm_base": "2026-08-29T07:28:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41149,6 +41149,1425 @@
   ],
   "tags": {
     "leisure": "garden"
+  }
+},
+{
+  "type": "relation",
+  "id": 2030042,
+  "center": {
+    "lat": -33.8733408,
+    "lon": 151.2112428
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 150583873,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 148341695,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2025-07-05",
+    "leisure": "park",
+    "name": "Hyde Park",
+    "name:ko": "하이드 파크",
+    "type": "multipolygon",
+    "wikidata": "Q1144894",
+    "wikipedia": "en:Hyde Park, Sydney"
+  }
+},
+{
+  "type": "relation",
+  "id": 2031573,
+  "center": {
+    "lat": -33.9268930,
+    "lon": 151.1571550
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 150721170,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 150721168,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "attribution:name": "aharvey",
+    "leisure": "park",
+    "name": "Kendrick Park",
+    "source:location": "bing",
+    "source:name": "survey",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2068542,
+  "center": {
+    "lat": -33.8473238,
+    "lon": 151.2121978
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 4331538,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 153282514,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 153282516,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 48276751,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 5720065,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "alcohol": "no",
+    "check_date": "2026-05-02",
+    "leisure": "park",
+    "name": "Bradfield Park",
+    "type": "multipolygon",
+    "website": "https://www.northsydney.nsw.gov.au/directory-record/1385/bradfield-park"
+  }
+},
+{
+  "type": "relation",
+  "id": 2068543,
+  "center": {
+    "lat": -33.8500260,
+    "lon": 151.2148892
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 153282512,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 153282515,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 201865776,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 201865775,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2026-06-11",
+    "leisure": "park",
+    "name": "Captain Henry Waterhouse Reserve",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2068544,
+  "center": {
+    "lat": -33.8501497,
+    "lon": 151.2156771
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 23286940,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 201865776,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "alcohol": "no",
+    "leisure": "park",
+    "name": "Dr Mary Booth Lookout",
+    "source": "survey",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2347918,
+  "center": {
+    "lat": -33.8866062,
+    "lon": 151.1927426
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 175777432,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 740594256,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 740594257,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1061240487,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 175777434,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 148331260,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2024-10-13",
+    "description": "Dogs allowed off leash from 6pm to 8am, but prohibited from pool, pond, barbecue areas and playgrounds.",
+    "dog": "leashed",
+    "dog:conditional": "unleashed @ 18:00-08:00",
+    "leisure": "park",
+    "name": "Victoria Park",
+    "type": "multipolygon",
+    "website": "https://www.cityofsydney.nsw.gov.au/explore/facilities/parks/major-parks/victoria-park",
+    "wikidata": "Q7926927",
+    "wikipedia": "en:Victoria Park, Sydney"
+  }
+},
+{
+  "type": "relation",
+  "id": 2790839,
+  "center": {
+    "lat": -33.8535272,
+    "lon": 151.1432157
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 152274009,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 207567993,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 207568004,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Russell Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2790840,
+  "center": {
+    "lat": -33.8494125,
+    "lon": 151.1814637
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 207568014,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 570848262,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Birchgrove Park",
+    "source": "LPI Base Map Mar 2017",
+    "type": "multipolygon",
+    "wikidata": "Q4915733"
+  }
+},
+{
+  "type": "relation",
+  "id": 2790841,
+  "center": {
+    "lat": -33.8522722,
+    "lon": 151.1399250
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 207567960,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 207568007,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Lysaght Park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2916616,
+  "center": {
+    "lat": -33.8992017,
+    "lon": 151.1897048
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 62203420,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 220553496,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "dog": "yes",
+    "leisure": "park",
+    "name": "Solander Park",
+    "operator": "City of Sydney",
+    "operator:type": "government",
+    "operator:wikidata": "Q1094194",
+    "type": "multipolygon",
+    "website": "https://www.cityofsydney.nsw.gov.au/parks/solander-park"
+  }
+},
+{
+  "type": "relation",
+  "id": 2931435,
+  "center": {
+    "lat": -33.8757445,
+    "lon": 151.1689156
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 153702108,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 221694913,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "layer": "-1",
+    "leisure": "park",
+    "name": "Cohen Park",
+    "type": "multipolygon",
+    "wikidata": "Q21928191"
+  }
+},
+{
+  "type": "relation",
+  "id": 2947532,
+  "center": {
+    "lat": -33.8588964,
+    "lon": 151.1914569
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 222411829,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 222411831,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "source": "bing",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 2959623,
+  "center": {
+    "lat": -33.8756040,
+    "lon": 151.1760670
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 172324257,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 829003127,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 223085536,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 384496543,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 197713703,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 829003126,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "dog": "yes",
+    "leisure": "park",
+    "name": "Federal Park",
+    "type": "multipolygon",
+    "website": "https://www.cityofsydney.nsw.gov.au/parks/federal-park",
+    "wikidata": "Q21928481"
+  }
+},
+{
+  "type": "relation",
+  "id": 2959631,
+  "center": {
+    "lat": -33.8728304,
+    "lon": 151.1775745
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 829003127,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 828804026,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 496771694,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 496771692,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 223085538,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 817754695,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 197713704,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 172324252,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 829003126,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 172324257,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2024-03-28",
+    "description": "Dogs allowed off leash west of canal",
+    "dog": "leashed",
+    "leisure": "park",
+    "name": "Bicentennial Park",
+    "type": "multipolygon",
+    "website": "https://www.cityofsydney.nsw.gov.au/parks/bicentennial-park"
+  }
+},
+{
+  "type": "relation",
+  "id": 2959632,
+  "center": {
+    "lat": -33.8741161,
+    "lon": 151.1786776
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 197713705,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 223085535,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2024-04-25",
+    "leisure": "park",
+    "name": "Jubilee Park",
+    "type": "multipolygon",
+    "wikidata": "Q21929952"
+  }
+},
+{
+  "type": "relation",
+  "id": 3744333,
+  "center": {
+    "lat": -33.8600928,
+    "lon": 151.2141697
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 281967520,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967527,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 282025760,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 151442667,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 659438017,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "alt_name": "Tarpeian Precinct Lawn",
+    "check_date": "2025-02-21",
+    "leisure": "park",
+    "name": "Domain Tarpeian Precinct",
+    "source": "sign",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 3744998,
+  "center": {
+    "lat": -33.8637401,
+    "lon": 151.2203961
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 270857562,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818810,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818813,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818809,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818808,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818807,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818814,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1443818812,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1453176757,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967519,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1425971491,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 2956960,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 280420566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1181042674,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1391710691,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1181042675,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 25181759,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967484,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 25181764,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1082317633,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1082317632,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 435721797,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 385077911,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967523,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967516,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Domain Yurong Precinct",
+    "operator": "Botanic Gardens of Sydney",
+    "operator:wikidata": "Q41758525",
+    "source": "sign",
+    "type": "multipolygon",
+    "website": "https://www.botanicgardens.org.au/facility/the-domain-sydney-yurong/"
+  }
+},
+{
+  "type": "relation",
+  "id": 3744999,
+  "center": {
+    "lat": -33.8627776,
+    "lon": 151.2169377
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1181042674,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1391710691,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1181042672,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1391710692,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1181042673,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 4333897,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967517,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967524,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 280420565,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967520,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 659438018,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967521,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 151419538,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 281967522,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 280420566,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 203197364,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 283893024,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1269039516,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "dog": "no",
+    "fee": "no",
+    "garden:type": "botanical",
+    "leisure": "garden",
+    "name": "Royal Botanic Garden",
+    "name:de": "Königliche Botanische Gärten",
+    "opening_hours": "Nov-Feb 07:00-20:00; Mar 07:00-18:30; Apr 07:00-18:00; May 07:00-17:30; Jun-Jul 07:00-17:00; Aug 07:00-17:30; Sep 07:00-18:00; Oct 07:00-19:30",
+    "operator": "Botanic Gardens of Sydney",
+    "operator:wikidata": "Q41758525",
+    "type": "multipolygon",
+    "website": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+    "wikidata": "Q54489",
+    "wikipedia": "en:Royal Botanic Garden, Sydney"
+  }
+},
+{
+  "type": "relation",
+  "id": 5392143,
+  "center": {
+    "lat": -33.9022317,
+    "lon": 151.1521785
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 362356722,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 681306238,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1211723990,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:postcode": "2204",
+    "addr:street": "Lawson Avenue",
+    "addr:suburb": "Marrickville",
+    "landuse": "recreation_ground",
+    "leisure": "park",
+    "name": "Marrickville Park",
+    "type": "multipolygon",
+    "website": "http://www.marrickville.nsw.gov.au/en/outandabout/parks-and-reserves/park-locations-and-facilities/",
+    "wikidata": "Q21933099"
+  }
+},
+{
+  "type": "relation",
+  "id": 5718956,
+  "center": {
+    "lat": -33.8815319,
+    "lon": 151.2347891
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 195511275,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 384451154,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 384451155,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 195511270,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 384451144,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "check_date": "2025-09-14",
+    "leisure": "park",
+    "name": "Trumper Park",
+    "type": "multipolygon",
+    "website": "https://www.woollahra.nsw.gov.au/recreation/parks,_reserves_and_playgrounds/list_of_parks_and_playgrounds/parks_and_playgrounds/trumper_park_oval",
+    "wikidata": "Q21935754"
+  }
+},
+{
+  "type": "relation",
+  "id": 6260181,
+  "center": {
+    "lat": -33.8896639,
+    "lon": 151.1886216
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 47956370,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 421273140,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 7120940,
+  "center": {
+    "lat": -33.8768220,
+    "lon": 151.1928782
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 145267771,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 145267772,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 486501045,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 486501044,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "dog": "yes",
+    "leisure": "park",
+    "name": "Wentworth Park",
+    "type": "multipolygon",
+    "website": "https://www.wentworthparksport.com.au/",
+    "wikidata": "Q768500",
+    "wikipedia": "en:Wentworth Park"
+  }
+},
+{
+  "type": "relation",
+  "id": 10790939,
+  "center": {
+    "lat": -33.8899935,
+    "lon": 151.1919687
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 208642598,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642597,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642621,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Gadigal Green",
+    "operator": "University of Sydney",
+    "surface": "grass",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 10791056,
+  "center": {
+    "lat": -33.8858199,
+    "lon": 151.1897101
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 208642586,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642604,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642649,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642625,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 208642648,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "landuse": "grass",
+    "leisure": "park",
+    "name": "The Front Lawn",
+    "operator": "University of Sydney",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16348586,
+  "center": {
+    "lat": -33.9230157,
+    "lon": 151.1881936
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1209046195,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1209046196,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "leisure": "garden",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17039613,
+  "center": {
+    "lat": -33.8584814,
+    "lon": 151.2013238
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1265753625,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1240406234,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 367044491,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1240406230,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1240406233,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 150279704,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1265753623,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1265753624,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1240989649,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1240989662,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1240989656,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1240989655,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1240989648,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1240989678,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "alcohol": "yes",
+    "leisure": "park",
+    "name": "Barangaroo Reserve",
+    "name:etymology": "Barangaroo",
+    "name:etymology:wikidata": "Q807254",
+    "operator": "Placemaking NSW",
+    "operator:wikidata": "Q136439527",
+    "source:alcohol": "https://www.barangaroo.com/venue-hire/picnics#:~:text=Alcohol%20is%20allowed%20in%20the,native%20trees%20throughout%20the%20Reserve.",
+    "start_date": "2015",
+    "type": "multipolygon",
+    "website": "https://www.barangaroo.com/precincts/barangaroo-reserve",
+    "wikidata": "Q30435452"
+  }
+},
+{
+  "type": "relation",
+  "id": 17354387,
+  "center": {
+    "lat": -33.8689657,
+    "lon": 151.1919494
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1263405605,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1263405596,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1263405595,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17464557,
+  "center": {
+    "lat": -33.8736324,
+    "lon": 151.2066372
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1272181822,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1272181821,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "garden",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17991322,
+  "center": {
+    "lat": -33.9278215,
+    "lon": 151.1611465
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1312401987,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1312401986,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "leisure": "garden",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 18186000,
+  "center": {
+    "lat": -33.8635487,
+    "lon": 151.1532320
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 151697294,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1326414839,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Rodd Island",
+    "name:etymology": "Brent Clements Rodd",
+    "name:etymology:wikidata": "Q4961341",
+    "place": "islet",
+    "source:location": "bing",
+    "source:name": "knowledge",
+    "type": "multipolygon",
+    "wikidata": "Q7356457",
+    "wikipedia": "en:Rodd Island"
+  }
+},
+{
+  "type": "relation",
+  "id": 18581146,
+  "center": {
+    "lat": -33.9052068,
+    "lon": 151.2132076
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1352920610,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920608,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920609,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920594,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920585,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920611,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1352920602,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920596,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920604,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920605,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920603,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920601,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 1352920593,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "access": "private",
+    "leisure": "garden",
+    "level": "2",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19579118,
+  "center": {
+    "lat": -33.8835612,
+    "lon": 151.2089490
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1427962447,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1427962446,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "leisure": "garden",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19886844,
+  "center": {
+    "lat": -33.8753797,
+    "lon": 151.2015866
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1453889773,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "garden",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20274846,
+  "center": {
+    "lat": -33.8796978,
+    "lon": 151.2378902
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 410104709,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1101419587,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "leisure": "park",
+    "name": "Edgecliff Square",
+    "source": "survey",
+    "type": "multipolygon"
   }
 }
 

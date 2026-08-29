@@ -56,7 +56,7 @@ def main() -> None:
     lit = load("osm_lit_paths")
     footpaths = load("osm_footpaths")
     toilets = load("toilets")
-    parks = load("parks")
+    parks = load("osm_parks")
     play = load("osm_playgrounds")
     arterial = load("osm_arterial")
 
@@ -89,7 +89,7 @@ def main() -> None:
     b["explain"] = ""    # stretch: LLM pass
 
     for col in b.columns:
-        if col not in ("mb", "geometry", "fix", "explain", "arterial"):
+        if col not in ("mb", "cat", "geometry", "fix", "explain", "arterial"):
             b[col] = b[col].round(0).astype(int)
 
     b.to_crs(CRS_WEB).to_file(OUT, driver="GeoJSON")

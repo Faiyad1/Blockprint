@@ -93,6 +93,17 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
   }, [blocks]);
   const useGoogleTiles = cityMode && GOOGLE_TILES_KEY !== "";
 
+  // parks and water aren't places people live — leave them unscored/uncolored
+  const scored = useMemo(() => {
+    if (!blocks) return null;
+    return {
+      ...blocks,
+      features: blocks.features.filter(
+        (f) => !["Parkland", "Water"].includes(String(f.properties?.cat ?? ""))
+      ),
+    };
+  }, [blocks]);
+
   const layers = useMemo(() => {
     const out = [];
     if (useGoogleTiles) {
@@ -117,11 +128,11 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
         })
       );
     }
-    if (!blocks) return out;
+    if (!scored) return out;
     out.push(
       new GeoJsonLayer({
         id: "score-prisms",
-        data: blocks,
+        data: scored,
         extruded: true,
         pickable: true,
         autoHighlight: true,
@@ -148,7 +159,7 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
     );
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles]);
+  }, [scored, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles]);
 
   return (
     <DeckGL
