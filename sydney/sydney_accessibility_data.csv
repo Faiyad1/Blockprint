@@ -1,0 +1,9 @@
+﻿Destination,Address,Latitude,Longitude,Wheelchair_Access,Accessible_Parking,Public_Transport,Ramp_or_Lift,Benches,Green_Space,Crowdedness
+Sydney Opera House,"Bennelong Point / Circular Quay East, Sydney NSW 2000",-33.856667,151.215221,Yes,Yes,"Train, Bus, Ferry",Yes,Yes,Some,High
+Sydney Harbour Bridge,"Sydney Harbour Bridge, Sydney / Milsons Point NSW",-33.852222,151.210556,Yes,No,"Train, Bus",Yes,Yes,Nearby Parks,Medium-High
+The Rocks,"The Rocks Precinct, The Rocks NSW 2000",-33.859047,151.208056,Yes,Yes,"Train, Bus, Ferry",Yes,Yes,Some,Medium-High
+Royal Botanic Garden Sydney,"Mrs Macquaries Rd, Sydney NSW 2000",-33.864201,151.216446,Yes,Yes,"Train, Bus",Yes,Yes,Large,Medium
+Sydney Tower Eye,"Westfield Sydney, Level 5, 108 Market St, Sydney NSW 2000",-33.870335,151.208771,Yes,No,"Train, Light Rail, Bus",Yes,Yes,No,High
+Darling Harbour,"Darling Harbour Precinct, Sydney NSW 2000",-33.872464,151.199191,Yes,Yes,"Light Rail, Bus, Train, Ferry",Yes,Yes,Parks / Open Space,High
+Queen Victoria Building,"429-481 George St, Sydney NSW 2000",-33.871821,151.206698,Yes,Yes,"Train, Light Rail, Bus",Yes,Yes,No,High
+St Mary's Cathedral,"College St / St Marys Rd, Sydney NSW 2000",-33.871165,151.213337,Yes,No,"Train, Bus",Yes,Yes,Hyde Park Adjacent,Medium
