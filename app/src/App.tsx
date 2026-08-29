@@ -3,6 +3,7 @@ import type { Feature, FeatureCollection } from "geojson";
 import Map3D, { type RenderMode } from "./Map3D";
 import PersonaBar from "./PersonaBar";
 import BlockPanel from "./BlockPanel";
+import PlacePanel from "./PlacePanel";
 import WeightsPanel from "./WeightsPanel";
 import Legend from "./Legend";
 import personasData from "./personas.json";
@@ -15,6 +16,7 @@ export default function App() {
   const [blocks, setBlocks] = useState<FeatureCollection | null>(null);
   const [persona, setPersona] = useState<Persona>(PERSONAS[0]);
   const [selected, setSelected] = useState<Feature | null>(null);
+  const [selectedPlace, setSelectedPlace] = useState<Feature | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<RenderMode>("city");
   const [showWeights, setShowWeights] = useState(false);
@@ -72,14 +74,21 @@ export default function App() {
         detailedWeights={detailed}
         buildings={buildings}
         selected={selected}
-        onSelect={setSelected}
+        onSelect={(f) => {
+          setSelected(f);
+          if (f) setSelectedPlace(null);
+        }}
+        onSelectPlace={(f) => {
+          setSelectedPlace(f);
+          if (f) setSelected(null);
+        }}
         mode={mode}
         culture={culture}
         showCulture={showCulture}
       />
       <header className="hud-top">
         <h1>Blockprint</h1>
-        <p className="tag">the blocks that make up Sydney — scored for who you are</p>
+        <p className="tag">The blocks that make up Sydney — scored for who you are</p>
         <div className="bar-row">
           <PersonaBar personas={PERSONAS} active={persona} onPick={pickPersona} />
           {culture && (
@@ -116,6 +125,9 @@ export default function App() {
           detailedWeights={detailed}
           onClose={() => setSelected(null)}
         />
+      )}
+      {selectedPlace && (
+        <PlacePanel place={selectedPlace} onClose={() => setSelectedPlace(null)} />
       )}
       {!blocks && !error && <div className="status">loading blocks…</div>}
       {error && <div className="status error">{error}</div>}

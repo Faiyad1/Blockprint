@@ -39,20 +39,28 @@ function useWaterStyle(): MapStyle {
   return style;
 }
 
-// framed so Darling Harbour + Circular Quay water is visible behind the blocks
+// framed so Darling Harbour + Circular Quay water is visible behind the blocks.
+// minZoom locks zoom-out at the home framing — the city never shrinks to a dot.
 const HOME_VIEW = {
   longitude: 151.205,
   latitude: -33.876,
-  zoom: 12.9,
+  zoom: 13.5,
+  minZoom: 13.5,
+  maxZoom: 18,
   pitch: 50,
   bearing: -12,
 };
 
-// opening shot: high and flat, then fly down into the tilted city view
+// pan bounds: keep the camera over the study area, with a little margin
+const BOUNDS = { west: 151.16, east: 151.25, south: -33.93, north: -33.84 };
+
+// opening shot: same zoom (can't start below the floor), flat, then tilt in
 const OPENING_VIEW = {
   longitude: 151.205,
   latitude: -33.876,
-  zoom: 11.2,
+  zoom: 13.5,
+  minZoom: 13.5,
+  maxZoom: 18,
   pitch: 0,
   bearing: 0,
 };
@@ -70,6 +78,7 @@ interface Props {
   detailedWeights: Record<string, number> | null;
   selected: Feature | null;
   onSelect: (f: Feature | null) => void;
+  onSelectPlace: (f: Feature | null) => void;
   mode: RenderMode;
   culture: FeatureCollection | null;
   showCulture: boolean;
@@ -77,7 +86,7 @@ interface Props {
 
 const CULTURE_PINK: [number, number, number] = [255, 92, 168];
 
-export default function Map3D({ blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, mode, culture, showCulture }: Props) {
+export default function Map3D({ blocks, buildings, persona, customWeights, detailedWeights, selected, onSelect, onSelectPlace, mode, culture, showCulture }: Props) {
   const mapStyle = useWaterStyle();
   const score = (p: object) => {
     const props = p as import("./scoring").BlockProps;
@@ -175,6 +184,10 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
           getElevation: 140,
           getFillColor: [...CULTURE_PINK, 235],
           pickable: true,
+          onClick: (info) => {
+            onSelectPlace((info.object as Feature) ?? null);
+            return true;
+          },
         }),
         new ScatterplotLayer({
           id: "culture-dots",
@@ -187,20 +200,33 @@ export default function Map3D({ blocks, buildings, persona, customWeights, detai
           lineWidthMinPixels: 1,
           stroked: true,
           pickable: true,
+          onClick: (info) => {
+            onSelectPlace((info.object as Feature) ?? null);
+            return true;
+          },
         })
       );
     }
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scored, buildings, persona, customWeights, detailedWeights, selected, onSelect, cityMode, useGoogleTiles, culture, showCulture]);
+  }, [scored, buildings, persona, customWeights, detailedWeights, selected, onSelect, onSelectPlace, cityMode, useGoogleTiles, culture, showCulture]);
 
   return (
     <DeckGL
       initialViewState={viewState}
       controller={true}
+      onViewStateChange={({ viewState: vs }) => {
+        const v = vs as unknown as { longitude: number; latitude: number };
+        v.longitude = Math.min(BOUNDS.east, Math.max(BOUNDS.west, v.longitude));
+        v.latitude = Math.min(BOUNDS.north, Math.max(BOUNDS.south, v.latitude));
+        return vs;
+      }}
       layers={layers}
       onClick={(info) => {
-        if (!info.layer) onSelect(null);
+        if (!info.layer) {
+          onSelect(null);
+          onSelectPlace(null);
+        }
       }}
       getTooltip={({ object }) => {
         const f = object as Feature | undefined;
