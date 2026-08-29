@@ -14,6 +14,7 @@ Feature types produced (each: point/line geometry + relevant flags):
 import io
 import json
 import zipfile
+from pathlib import Path
 
 import geopandas as gpd
 import pandas as pd
@@ -22,7 +23,13 @@ from shapely.geometry import Point
 
 from config import RAW, INTERIM, BBOX, CRS_METRIC, CRS_WEB
 
-TFNSW_KEY = ""  # <-- paste API key here (or read from env)
+# key lives OUTSIDE git (public repo, personal token): env var wins, else
+# the gitignored file pipeline/tfnsw_key.txt (one line, the raw token)
+import os
+_key_file = Path(__file__).parent / "tfnsw_key.txt"
+TFNSW_KEY = os.environ.get("TFNSW_KEY", "") or (
+    _key_file.read_text().strip() if _key_file.exists() else ""
+)
 GTFS_URL = "https://api.transport.nsw.gov.au/v1/publictransport/timetables/complete/gtfs"
 TOILETS_URL = (
     "https://data.gov.au/data/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/"

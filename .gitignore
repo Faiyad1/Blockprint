@@ -8,3 +8,4 @@ data/raw/*.zip
 __pycache__/
 .env
 *.log
+pipeline/tfnsw_key.txt
