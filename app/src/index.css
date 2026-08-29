@@ -1,0 +1,3 @@
+/* reset only — real styles live in App.css */
+* { box-sizing: border-box; }
+body { margin: 0; }

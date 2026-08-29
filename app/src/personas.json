@@ -1,0 +1,123 @@
+[
+  {
+    "id": "everyone",
+    "label": "Everyone",
+    "emoji": "🌏",
+    "core": true,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.3, "walk": 0.3, "amen": 0.2, "green": 0.2 },
+    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "wheelchair",
+    "label": "Wheelchair user",
+    "emoji": "🦽",
+    "core": true,
+    "decay": { "full": 200, "zero": 600 },
+    "weights": { "transit": 0.4, "walk": 0.35, "amen": 0.2, "green": 0.05 },
+    "variants": { "transit": "step_free", "walk": "ramps", "amen": "accessible", "green": "general" },
+    "rules": ["stairs_are_walls"]
+  },
+  {
+    "id": "pram",
+    "label": "Parent with pram",
+    "emoji": "👶",
+    "core": true,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.3, "walk": 0.3, "amen": 0.2, "green": 0.2 },
+    "variants": { "transit": "step_free", "walk": "ramps", "amen": "family", "green": "play" },
+    "rules": ["soft_step_free"]
+  },
+  {
+    "id": "older",
+    "label": "Older resident",
+    "emoji": "🧓",
+    "core": true,
+    "decay": { "full": 150, "zero": 400 },
+    "weights": { "transit": 0.3, "walk": 0.3, "amen": 0.25, "green": 0.15 },
+    "variants": { "transit": "any", "walk": "controlled", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "lowvision",
+    "label": "Low vision",
+    "emoji": "🦯",
+    "core": true,
+    "decay": { "full": 200, "zero": 600 },
+    "weights": { "transit": 0.35, "walk": 0.4, "amen": 0.2, "green": 0.05 },
+    "variants": { "transit": "any", "walk": "tactile", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "nightshift",
+    "label": "Night-shift worker",
+    "emoji": "🌙",
+    "core": false,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.5, "walk": 0.3, "amen": 0.15, "green": 0.05 },
+    "variants": { "transit": "late", "walk": "lit", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "newparent",
+    "label": "New parent at home",
+    "emoji": "🍼",
+    "core": false,
+    "decay": { "full": 100, "zero": 400 },
+    "weights": { "transit": 0.1, "walk": 0.25, "amen": 0.35, "green": 0.3 },
+    "variants": { "transit": "any", "walk": "general", "amen": "essentials", "green": "play" },
+    "rules": []
+  },
+  {
+    "id": "tourist",
+    "label": "Tourist",
+    "emoji": "🧳",
+    "core": false,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.35, "walk": 0.25, "amen": 0.3, "green": 0.1 },
+    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "kid",
+    "label": "Kid walking to school",
+    "emoji": "🎒",
+    "core": false,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.1, "walk": 0.45, "amen": 0.15, "green": 0.3 },
+    "variants": { "transit": "any", "walk": "controlled", "amen": "general", "green": "play" },
+    "rules": ["arterial_penalty"]
+  },
+  {
+    "id": "cyclist",
+    "label": "Cyclist",
+    "emoji": "🚲",
+    "core": false,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.15, "walk": 0.6, "amen": 0.15, "green": 0.1 },
+    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
+    "rules": [],
+    "note": "walk weight stands in for the cycle subscore until 03_score ships it"
+  },
+  {
+    "id": "nocar",
+    "label": "No-car household",
+    "emoji": "🚌",
+    "core": false,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.4, "walk": 0.2, "amen": 0.35, "green": 0.05 },
+    "variants": { "transit": "any", "walk": "general", "amen": "essentials", "green": "general" },
+    "rules": []
+  },
+  {
+    "id": "custom",
+    "label": "Custom",
+    "emoji": "🎛️",
+    "core": true,
+    "decay": { "full": 200, "zero": 800 },
+    "weights": { "transit": 0.3, "walk": 0.3, "amen": 0.2, "green": 0.2 },
+    "variants": { "transit": "any", "walk": "general", "amen": "general", "green": "general" },
+    "rules": []
+  }
+]

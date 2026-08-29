@@ -1,0 +1,8 @@
+PLAN.md
+
+node_modules/
+dist/
+data/interim/
+__pycache__/
+.env
+*.log

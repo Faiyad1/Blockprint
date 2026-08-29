@@ -1,0 +1,1085 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.199,
+       -33.884
+      ],
+      [
+       151.20222,
+       -33.884
+      ],
+      [
+       151.20222,
+       -33.88148
+      ],
+      [
+       151.199,
+       -33.88148
+      ],
+      [
+       151.199,
+       -33.884
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670000",
+    "transit_any": 64,
+    "transit_step_free": 50,
+    "transit_late": 24,
+    "walk_general": 69,
+    "walk_ramps": 64,
+    "walk_controlled": 36,
+    "walk_tactile": 60,
+    "walk_lit": 35,
+    "amen_general": 65,
+    "amen_accessible": 62,
+    "amen_family": 40,
+    "amen_essentials": 63,
+    "green_general": 55,
+    "green_play": 29,
+    "arterial": false,
+    "fix": {
+     "what": "bench pair, Pitt St mall",
+     "gain": 6,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20250000000001,
+       -33.884
+      ],
+      [
+       151.20572,
+       -33.884
+      ],
+      [
+       151.20572,
+       -33.88148
+      ],
+      [
+       151.20250000000001,
+       -33.88148
+      ],
+      [
+       151.20250000000001,
+       -33.884
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670001",
+    "transit_any": 79,
+    "transit_step_free": 85,
+    "transit_late": 69,
+    "walk_general": 90,
+    "walk_ramps": 91,
+    "walk_controlled": 76,
+    "walk_tactile": 81,
+    "walk_lit": 78,
+    "amen_general": 75,
+    "amen_accessible": 79,
+    "amen_family": 86,
+    "amen_essentials": 79,
+    "green_general": 93,
+    "green_play": 81,
+    "arterial": true,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 7,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20600000000002,
+       -33.884
+      ],
+      [
+       151.20922000000002,
+       -33.884
+      ],
+      [
+       151.20922000000002,
+       -33.88148
+      ],
+      [
+       151.20600000000002,
+       -33.88148
+      ],
+      [
+       151.20600000000002,
+       -33.884
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670002",
+    "transit_any": 93,
+    "transit_step_free": 88,
+    "transit_late": 59,
+    "walk_general": 95,
+    "walk_ramps": 91,
+    "walk_controlled": 77,
+    "walk_tactile": 79,
+    "walk_lit": 60,
+    "amen_general": 82,
+    "amen_accessible": 84,
+    "amen_family": 81,
+    "amen_essentials": 81,
+    "green_general": 85,
+    "green_play": 84,
+    "arterial": false,
+    "fix": {
+     "what": "bench pair, Pitt St mall",
+     "gain": 7,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20950000000002,
+       -33.884
+      ],
+      [
+       151.21272000000002,
+       -33.884
+      ],
+      [
+       151.21272000000002,
+       -33.88148
+      ],
+      [
+       151.20950000000002,
+       -33.88148
+      ],
+      [
+       151.20950000000002,
+       -33.884
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670003",
+    "transit_any": 56,
+    "transit_step_free": 44,
+    "transit_late": 15,
+    "walk_general": 52,
+    "walk_ramps": 49,
+    "walk_controlled": 40,
+    "walk_tactile": 40,
+    "walk_lit": 41,
+    "amen_general": 49,
+    "amen_accessible": 46,
+    "amen_family": 40,
+    "amen_essentials": 35,
+    "green_general": 49,
+    "green_play": 40,
+    "arterial": false,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 7,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.21300000000002,
+       -33.884
+      ],
+      [
+       151.21622000000002,
+       -33.884
+      ],
+      [
+       151.21622000000002,
+       -33.88148
+      ],
+      [
+       151.21300000000002,
+       -33.88148
+      ],
+      [
+       151.21300000000002,
+       -33.884
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670004",
+    "transit_any": 57,
+    "transit_step_free": 63,
+    "transit_late": 51,
+    "walk_general": 63,
+    "walk_ramps": 70,
+    "walk_controlled": 69,
+    "walk_tactile": 67,
+    "walk_lit": 51,
+    "amen_general": 71,
+    "amen_accessible": 74,
+    "amen_family": 62,
+    "amen_essentials": 62,
+    "green_general": 41,
+    "green_play": 29,
+    "arterial": true,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 6,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.199,
+       -33.8812
+      ],
+      [
+       151.20222,
+       -33.8812
+      ],
+      [
+       151.20222,
+       -33.87868
+      ],
+      [
+       151.199,
+       -33.87868
+      ],
+      [
+       151.199,
+       -33.8812
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670005",
+    "transit_any": 88,
+    "transit_step_free": 85,
+    "transit_late": 42,
+    "walk_general": 84,
+    "walk_ramps": 75,
+    "walk_controlled": 75,
+    "walk_tactile": 66,
+    "walk_lit": 73,
+    "amen_general": 66,
+    "amen_accessible": 83,
+    "amen_family": 55,
+    "amen_essentials": 70,
+    "green_general": 77,
+    "green_play": 48,
+    "arterial": true,
+    "fix": {
+     "what": "tactile paving, Castlereagh St",
+     "gain": 11,
+     "persona": "lowvision"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20250000000001,
+       -33.8812
+      ],
+      [
+       151.20572,
+       -33.8812
+      ],
+      [
+       151.20572,
+       -33.87868
+      ],
+      [
+       151.20250000000001,
+       -33.87868
+      ],
+      [
+       151.20250000000001,
+       -33.8812
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670006",
+    "transit_any": 40,
+    "transit_step_free": 43,
+    "transit_late": 35,
+    "walk_general": 52,
+    "walk_ramps": 43,
+    "walk_controlled": 37,
+    "walk_tactile": 53,
+    "walk_lit": 34,
+    "amen_general": 59,
+    "amen_accessible": 55,
+    "amen_family": 27,
+    "amen_essentials": 37,
+    "green_general": 30,
+    "green_play": 24,
+    "arterial": false,
+    "fix": {
+     "what": "tactile paving, Castlereagh St",
+     "gain": 15,
+     "persona": "lowvision"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20600000000002,
+       -33.8812
+      ],
+      [
+       151.20922000000002,
+       -33.8812
+      ],
+      [
+       151.20922000000002,
+       -33.87868
+      ],
+      [
+       151.20600000000002,
+       -33.87868
+      ],
+      [
+       151.20600000000002,
+       -33.8812
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670007",
+    "transit_any": 63,
+    "transit_step_free": 63,
+    "transit_late": 34,
+    "walk_general": 66,
+    "walk_ramps": 61,
+    "walk_controlled": 59,
+    "walk_tactile": 48,
+    "walk_lit": 48,
+    "amen_general": 67,
+    "amen_accessible": 53,
+    "amen_family": 58,
+    "amen_essentials": 46,
+    "green_general": 33,
+    "green_play": 20,
+    "arterial": true,
+    "fix": {
+     "what": "tactile paving, Castlereagh St",
+     "gain": 13,
+     "persona": "lowvision"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20950000000002,
+       -33.8812
+      ],
+      [
+       151.21272000000002,
+       -33.8812
+      ],
+      [
+       151.21272000000002,
+       -33.87868
+      ],
+      [
+       151.20950000000002,
+       -33.87868
+      ],
+      [
+       151.20950000000002,
+       -33.8812
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670008",
+    "transit_any": 61,
+    "transit_step_free": 67,
+    "transit_late": 41,
+    "walk_general": 68,
+    "walk_ramps": 63,
+    "walk_controlled": 64,
+    "walk_tactile": 67,
+    "walk_lit": 45,
+    "amen_general": 53,
+    "amen_accessible": 73,
+    "amen_family": 63,
+    "amen_essentials": 51,
+    "green_general": 43,
+    "green_play": 26,
+    "arterial": true,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 9,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.21300000000002,
+       -33.8812
+      ],
+      [
+       151.21622000000002,
+       -33.8812
+      ],
+      [
+       151.21622000000002,
+       -33.87868
+      ],
+      [
+       151.21300000000002,
+       -33.87868
+      ],
+      [
+       151.21300000000002,
+       -33.8812
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670009",
+    "transit_any": 43,
+    "transit_step_free": 0,
+    "transit_late": 22,
+    "walk_general": 58,
+    "walk_ramps": 0,
+    "walk_controlled": 33,
+    "walk_tactile": 0,
+    "walk_lit": 42,
+    "amen_general": 59,
+    "amen_accessible": 0,
+    "amen_family": 43,
+    "amen_essentials": 60,
+    "green_general": 39,
+    "green_play": 35,
+    "arterial": true,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 7,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.199,
+       -33.8784
+      ],
+      [
+       151.20222,
+       -33.8784
+      ],
+      [
+       151.20222,
+       -33.87588
+      ],
+      [
+       151.199,
+       -33.87588
+      ],
+      [
+       151.199,
+       -33.8784
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670010",
+    "transit_any": 76,
+    "transit_step_free": 85,
+    "transit_late": 49,
+    "walk_general": 89,
+    "walk_ramps": 88,
+    "walk_controlled": 72,
+    "walk_tactile": 82,
+    "walk_lit": 63,
+    "amen_general": 76,
+    "amen_accessible": 80,
+    "amen_family": 76,
+    "amen_essentials": 72,
+    "green_general": 89,
+    "green_play": 70,
+    "arterial": false,
+    "fix": {
+     "what": "accessible toilet, Belmore Park",
+     "gain": 14,
+     "persona": "wheelchair"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20250000000001,
+       -33.8784
+      ],
+      [
+       151.20572,
+       -33.8784
+      ],
+      [
+       151.20572,
+       -33.87588
+      ],
+      [
+       151.20250000000001,
+       -33.87588
+      ],
+      [
+       151.20250000000001,
+       -33.8784
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670011",
+    "transit_any": 77,
+    "transit_step_free": 71,
+    "transit_late": 38,
+    "walk_general": 77,
+    "walk_ramps": 71,
+    "walk_controlled": 55,
+    "walk_tactile": 64,
+    "walk_lit": 61,
+    "amen_general": 66,
+    "amen_accessible": 78,
+    "amen_family": 68,
+    "amen_essentials": 66,
+    "green_general": 80,
+    "green_play": 31,
+    "arterial": false,
+    "fix": {
+     "what": "kerb ramp, Harris St / Mary Ann St",
+     "gain": 16,
+     "persona": "wheelchair"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20600000000002,
+       -33.8784
+      ],
+      [
+       151.20922000000002,
+       -33.8784
+      ],
+      [
+       151.20922000000002,
+       -33.87588
+      ],
+      [
+       151.20600000000002,
+       -33.87588
+      ],
+      [
+       151.20600000000002,
+       -33.8784
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670012",
+    "transit_any": 49,
+    "transit_step_free": 10,
+    "transit_late": 45,
+    "walk_general": 62,
+    "walk_ramps": 13,
+    "walk_controlled": 36,
+    "walk_tactile": 6,
+    "walk_lit": 54,
+    "amen_general": 67,
+    "amen_accessible": 12,
+    "amen_family": 38,
+    "amen_essentials": 53,
+    "green_general": 35,
+    "green_play": 40,
+    "arterial": true,
+    "fix": {
+     "what": "accessible toilet, Belmore Park",
+     "gain": 18,
+     "persona": "wheelchair"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20950000000002,
+       -33.8784
+      ],
+      [
+       151.21272000000002,
+       -33.8784
+      ],
+      [
+       151.21272000000002,
+       -33.87588
+      ],
+      [
+       151.20950000000002,
+       -33.87588
+      ],
+      [
+       151.20950000000002,
+       -33.8784
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670013",
+    "transit_any": 72,
+    "transit_step_free": 76,
+    "transit_late": 63,
+    "walk_general": 67,
+    "walk_ramps": 83,
+    "walk_controlled": 74,
+    "walk_tactile": 65,
+    "walk_lit": 60,
+    "amen_general": 78,
+    "amen_accessible": 75,
+    "amen_family": 60,
+    "amen_essentials": 63,
+    "green_general": 54,
+    "green_play": 55,
+    "arterial": false,
+    "fix": {
+     "what": "bench pair, Pitt St mall",
+     "gain": 13,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.21300000000002,
+       -33.8784
+      ],
+      [
+       151.21622000000002,
+       -33.8784
+      ],
+      [
+       151.21622000000002,
+       -33.87588
+      ],
+      [
+       151.21300000000002,
+       -33.87588
+      ],
+      [
+       151.21300000000002,
+       -33.8784
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670014",
+    "transit_any": 79,
+    "transit_step_free": 39,
+    "transit_late": 51,
+    "walk_general": 93,
+    "walk_ramps": 38,
+    "walk_controlled": 68,
+    "walk_tactile": 33,
+    "walk_lit": 75,
+    "amen_general": 84,
+    "amen_accessible": 31,
+    "amen_family": 85,
+    "amen_essentials": 84,
+    "green_general": 87,
+    "green_play": 77,
+    "arterial": true,
+    "fix": {
+     "what": "accessible toilet, Belmore Park",
+     "gain": 8,
+     "persona": "wheelchair"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.199,
+       -33.8756
+      ],
+      [
+       151.20222,
+       -33.8756
+      ],
+      [
+       151.20222,
+       -33.87308
+      ],
+      [
+       151.199,
+       -33.87308
+      ],
+      [
+       151.199,
+       -33.8756
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670015",
+    "transit_any": 57,
+    "transit_step_free": 60,
+    "transit_late": 49,
+    "walk_general": 51,
+    "walk_ramps": 57,
+    "walk_controlled": 48,
+    "walk_tactile": 56,
+    "walk_lit": 53,
+    "amen_general": 64,
+    "amen_accessible": 57,
+    "amen_family": 43,
+    "amen_essentials": 56,
+    "green_general": 70,
+    "green_play": 48,
+    "arterial": false,
+    "fix": {
+     "what": "tactile paving, Castlereagh St",
+     "gain": 19,
+     "persona": "lowvision"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20250000000001,
+       -33.8756
+      ],
+      [
+       151.20572,
+       -33.8756
+      ],
+      [
+       151.20572,
+       -33.87308
+      ],
+      [
+       151.20250000000001,
+       -33.87308
+      ],
+      [
+       151.20250000000001,
+       -33.8756
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670016",
+    "transit_any": 71,
+    "transit_step_free": 72,
+    "transit_late": 62,
+    "walk_general": 84,
+    "walk_ramps": 73,
+    "walk_controlled": 72,
+    "walk_tactile": 76,
+    "walk_lit": 59,
+    "amen_general": 80,
+    "amen_accessible": 71,
+    "amen_family": 67,
+    "amen_essentials": 76,
+    "green_general": 81,
+    "green_play": 39,
+    "arterial": false,
+    "fix": {
+     "what": "accessible toilet, Belmore Park",
+     "gain": 10,
+     "persona": "wheelchair"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20600000000002,
+       -33.8756
+      ],
+      [
+       151.20922000000002,
+       -33.8756
+      ],
+      [
+       151.20922000000002,
+       -33.87308
+      ],
+      [
+       151.20600000000002,
+       -33.87308
+      ],
+      [
+       151.20600000000002,
+       -33.8756
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670017",
+    "transit_any": 88,
+    "transit_step_free": 62,
+    "transit_late": 65,
+    "walk_general": 83,
+    "walk_ramps": 51,
+    "walk_controlled": 83,
+    "walk_tactile": 56,
+    "walk_lit": 80,
+    "amen_general": 96,
+    "amen_accessible": 64,
+    "amen_family": 82,
+    "amen_essentials": 67,
+    "green_general": 56,
+    "green_play": 67,
+    "arterial": true,
+    "fix": {
+     "what": "bench pair, Pitt St mall",
+     "gain": 17,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.20950000000002,
+       -33.8756
+      ],
+      [
+       151.21272000000002,
+       -33.8756
+      ],
+      [
+       151.21272000000002,
+       -33.87308
+      ],
+      [
+       151.20950000000002,
+       -33.87308
+      ],
+      [
+       151.20950000000002,
+       -33.8756
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670018",
+    "transit_any": 60,
+    "transit_step_free": 76,
+    "transit_late": 32,
+    "walk_general": 79,
+    "walk_ramps": 76,
+    "walk_controlled": 57,
+    "walk_tactile": 68,
+    "walk_lit": 58,
+    "amen_general": 58,
+    "amen_accessible": 64,
+    "amen_family": 67,
+    "amen_essentials": 51,
+    "green_general": 54,
+    "green_play": 61,
+    "arterial": false,
+    "fix": {
+     "what": "tactile paving, Castlereagh St",
+     "gain": 21,
+     "persona": "lowvision"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       151.21300000000002,
+       -33.8756
+      ],
+      [
+       151.21622000000002,
+       -33.8756
+      ],
+      [
+       151.21622000000002,
+       -33.87308
+      ],
+      [
+       151.21300000000002,
+       -33.87308
+      ],
+      [
+       151.21300000000002,
+       -33.8756
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "mb": "10025670019",
+    "transit_any": 82,
+    "transit_step_free": 71,
+    "transit_late": 63,
+    "walk_general": 76,
+    "walk_ramps": 80,
+    "walk_controlled": 62,
+    "walk_tactile": 64,
+    "walk_lit": 71,
+    "amen_general": 73,
+    "amen_accessible": 81,
+    "amen_family": 70,
+    "amen_essentials": 68,
+    "green_general": 79,
+    "green_play": 73,
+    "arterial": false,
+    "fix": {
+     "what": "controlled crossing, George St",
+     "gain": 12,
+     "persona": "older"
+    },
+    "explain": "Placeholder \u2014 real explanations come from the pipeline."
+   }
+  }
+ ]
+}
