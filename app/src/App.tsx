@@ -19,7 +19,10 @@ export default function App() {
   );
   const [selected, setSelected] = useState<Feature | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [mode, setMode] = useState<RenderMode>("data");
+  const [mode, setMode] = useState<RenderMode>("city");
+  const [showWeights, setShowWeights] = useState(false);
+  // user-tuned coefficient override; null = use the persona's own weights
+  const [tuned, setTuned] = useState<Record<Sub, number> | null>(null);
   const [buildings, setBuildings] = useState<FeatureCollection | null>(null);
 
   // 'B' toggles city/data mode — also the panic key if tiles fail live
@@ -48,13 +51,19 @@ export default function App() {
   }, []);
 
   const isCustom = persona.id === "custom";
+  const effectiveWeights = tuned ?? (isCustom ? customWeights : undefined);
+
+  const pickPersona = (p: Persona) => {
+    setPersona(p);
+    setTuned(null); // new persona starts from its own coefficients
+  };
 
   return (
     <div className="app">
       <Map3D
         blocks={blocks}
         persona={persona}
-        customWeights={isCustom ? customWeights : undefined}
+        customWeights={effectiveWeights}
         buildings={buildings}
         selected={selected}
         onSelect={setSelected}
@@ -63,21 +72,36 @@ export default function App() {
       <header className="hud-top">
         <h1>Blockprint</h1>
         <p className="tag">the blocks that make up Sydney — scored for who you are</p>
-        <button
-          className="mode-toggle"
-          onClick={() => setMode((m) => (m === "data" ? "city" : "data"))}
-        >
-          {mode === "data" ? "🏙️ show buildings" : "📊 data view"} <kbd>B</kbd>
-        </button>
-        <PersonaBar personas={PERSONAS} active={persona} onPick={setPersona} />
+        <PersonaBar personas={PERSONAS} active={persona} onPick={pickPersona} />
         {isCustom && <CustomSliders weights={customWeights} onChange={setCustomWeights} />}
       </header>
+      <div className="weights-corner">
+        <button className="weights-btn" onClick={() => setShowWeights((s) => !s)}>
+          🎛️ score weights
+        </button>
+        {showWeights && (
+          <div className="weights-panel">
+            <p className="weights-title">
+              Coefficients for <strong>{persona.label}</strong>
+              {tuned && <span className="tuned-flag"> (adjusted)</span>}
+            </p>
+            <CustomSliders
+              weights={tuned ?? persona.weights}
+              onChange={setTuned}
+            />
+            <button className="weights-reset" onClick={() => setTuned(null)} disabled={!tuned}>
+              Reset to {persona.label} defaults
+            </button>
+            <p className="weights-note">Weights are normalized by their sum — only the ratio matters.</p>
+          </div>
+        )}
+      </div>
       <Legend />
       {selected && (
         <BlockPanel
           block={selected}
           persona={persona}
-          customWeights={isCustom ? customWeights : undefined}
+          customWeights={effectiveWeights}
           onClose={() => setSelected(null)}
         />
       )}

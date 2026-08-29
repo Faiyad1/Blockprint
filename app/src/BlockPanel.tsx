@@ -8,6 +8,38 @@ const SUB_LABELS: Record<Sub, string> = {
   green: "Green space",
 };
 
+// what a low score in each variant actually means, in words
+const LOW_REASONS: Record<string, string> = {
+  transit_any: "few transit stops within easy reach",
+  transit_step_free: "no verified step-free transit nearby",
+  transit_late: "no late-night services within reach",
+  walk_general: "sparse footpath network",
+  walk_ramps: "kerb ramps are scarce here",
+  walk_controlled: "few signalised crossings",
+  walk_tactile: "little tactile paving for low-vision navigation",
+  walk_lit: "poorly lit walking routes",
+  amen_general: "few everyday amenities (toilets, benches, water)",
+  amen_accessible: "the nearest accessible toilet is far away",
+  amen_family: "few family facilities nearby",
+  amen_essentials: "no pharmacy, GP or supermarket close by",
+  green_general: "no park within a comfortable walk",
+  green_play: "no playground nearby",
+};
+
+function explain(props: Record<string, unknown>, persona: Persona): string | null {
+  let worst: { key: string; sub: Sub; val: number } | null = null;
+  for (const sub of Object.keys(persona.variants) as Sub[]) {
+    const key = `${sub}_${persona.variants[sub]}`;
+    const v = props[key];
+    if (typeof v !== "number") continue;
+    if (!worst || v * persona.weights[sub] < worst.val * persona.weights[worst.sub]) {
+      worst = { key, sub, val: v };
+    }
+  }
+  if (!worst || worst.val >= 60) return null; // nothing notably weak
+  return `Main issue for ${persona.label.toLowerCase()}: ${LOW_REASONS[worst.key] ?? "low " + SUB_LABELS[worst.sub].toLowerCase()} (${worst.val}/100).`;
+}
+
 interface Props {
   block: Feature;
   persona: Persona;
@@ -47,9 +79,7 @@ export default function BlockPanel({ block, persona, customWeights, onClose }: P
           <span className="gain"> +{fix.gain} pts</span>
         </div>
       )}
-      {typeof props.explain === "string" && props.explain && (
-        <p className="explain">{props.explain}</p>
-      )}
+      {explain(props, persona) && <p className="explain">{explain(props, persona)}</p>}
     </aside>
   );
 }

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import DeckGL from "@deck.gl/react";
+import { FlyToInterpolator } from "@deck.gl/core";
 import { GeoJsonLayer } from "@deck.gl/layers";
 import { Tile3DLayer } from "@deck.gl/geo-layers";
 import { Map } from "react-map-gl/maplibre";
@@ -39,12 +40,21 @@ function useWaterStyle(): MapStyle {
 }
 
 // framed so Darling Harbour + Circular Quay water is visible behind the blocks
-const INITIAL_VIEW = {
+const HOME_VIEW = {
   longitude: 151.205,
   latitude: -33.876,
   zoom: 12.9,
   pitch: 50,
   bearing: -12,
+};
+
+// opening shot: high and flat, then fly down into the tilted city view
+const OPENING_VIEW = {
+  longitude: 151.205,
+  latitude: -33.876,
+  zoom: 11.2,
+  pitch: 0,
+  bearing: 0,
 };
 
 export type RenderMode = "data" | "city";
@@ -65,6 +75,17 @@ interface Props {
 export default function Map3D({ blocks, buildings, persona, customWeights, selected, onSelect, mode }: Props) {
   const mapStyle = useWaterStyle();
   const cityMode = mode === "city";
+  const [viewState, setViewState] = useState<Record<string, unknown>>(OPENING_VIEW);
+
+  // once the blocks arrive, fly down into the city
+  useEffect(() => {
+    if (!blocks) return;
+    setViewState({
+      ...HOME_VIEW,
+      transitionDuration: 2500,
+      transitionInterpolator: new FlyToInterpolator(),
+    });
+  }, [blocks]);
   const useGoogleTiles = cityMode && GOOGLE_TILES_KEY !== "";
 
   const layers = useMemo(() => {
@@ -98,6 +119,8 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
         data: blocks,
         extruded: true,
         pickable: true,
+        autoHighlight: true,
+        highlightColor: [255, 255, 255, 90],
         // translucent over the photorealistic city so Sydney shows through
         opacity: cityMode ? 0.45 : 0.85,
         getElevation: (f) => composite(f.properties ?? {}, persona, customWeights) * ELEVATION_SCALE,
@@ -123,7 +146,7 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
 
   return (
     <DeckGL
-      initialViewState={INITIAL_VIEW}
+      initialViewState={viewState}
       controller={true}
       layers={layers}
       onClick={(info) => {

@@ -52,8 +52,38 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
 .sliders label { display: grid; grid-template-columns: 80px 1fr; align-items: center; font-size: 0.8rem; }
 .sliders input { accent-color: var(--accent); }
 
+.weights-corner {
+  position: absolute; top: 16px; right: 16px; z-index: 10;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+}
+.weights-btn {
+  background: var(--panel); color: var(--text);
+  border: 1px solid var(--panel-border); border-radius: 8px;
+  padding: 7px 14px; font-size: 0.88rem; cursor: pointer;
+}
+.weights-btn:hover { border-color: var(--accent); }
+.weights-panel {
+  background: var(--panel); border: 1px solid var(--panel-border);
+  border-radius: 12px; padding: 12px 14px; width: 260px;
+  backdrop-filter: blur(6px);
+}
+.weights-panel .sliders {
+  background: none; border: none; padding: 0; width: 100%; margin-top: 6px;
+}
+.weights-title { margin: 0; font-size: 0.85rem; }
+.tuned-flag { color: var(--accent); }
+.weights-reset {
+  margin-top: 10px; width: 100%;
+  background: none; color: var(--text);
+  border: 1px solid var(--panel-border); border-radius: 6px;
+  padding: 5px 8px; font-size: 0.78rem; cursor: pointer;
+}
+.weights-reset:hover:enabled { border-color: var(--accent); }
+.weights-reset:disabled { opacity: 0.4; cursor: default; }
+.weights-note { margin: 8px 0 0; font-size: 0.72rem; color: var(--muted); }
+
 .block-panel {
-  position: absolute; top: 0; right: 0; bottom: 0; width: 300px;
+  position: absolute; top: 0; right: 0; bottom: 0; width: 300px; z-index: 5;
   background: var(--panel); border-left: 1px solid var(--panel-border);
   padding: 18px; overflow-y: auto; backdrop-filter: blur(6px);
 }
