@@ -49,6 +49,9 @@ const INITIAL_VIEW = {
 
 export type RenderMode = "data" | "city";
 
+// metres of prism height per score point (100 pts = 100 m)
+const ELEVATION_SCALE = 1;
+
 interface Props {
   blocks: FeatureCollection | null;
   buildings: FeatureCollection | null;
@@ -97,7 +100,7 @@ export default function Map3D({ blocks, buildings, persona, customWeights, selec
         pickable: true,
         // translucent over the photorealistic city so Sydney shows through
         opacity: cityMode ? 0.45 : 0.85,
-        getElevation: (f) => composite(f.properties ?? {}, persona, customWeights) * 8,
+        getElevation: (f) => composite(f.properties ?? {}, persona, customWeights) * ELEVATION_SCALE,
         getFillColor: (f) => {
           const s = composite(f.properties ?? {}, persona, customWeights);
           const [r, g, b] = scoreColor(s);

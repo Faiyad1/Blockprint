@@ -24,10 +24,14 @@ from config import RAW, INTERIM, BBOX, CRS_METRIC, CRS_WEB
 
 TFNSW_KEY = ""  # <-- paste API key here (or read from env)
 GTFS_URL = "https://api.transport.nsw.gov.au/v1/publictransport/timetables/complete/gtfs"
-TOILETS_URL = ""  # national toilet map CSV/GeoJSON URL from data.gov.au
-PARKS_URL = ""    # City of Sydney Data Hub GeoJSON endpoint
+TOILETS_URL = (
+    "https://data.gov.au/data/dataset/553b3049-2b8b-46a2-95e6-640d7986a8c1/"
+    "resource/34076296-6692-4e30-b627-67b7c4eb1027/download/toiletmapexport_251001_074429.csv"
+)
 
 OVERPASS = "https://overpass-api.de/api/interpreter"
+# Overpass 406s without a UA identifying the client
+HEADERS = {"User-Agent": "Blockprint-hackathon/0.1 (SYNCS Hack 2026 student project)"}
 W, S, E, N = BBOX
 OSM_QUERIES = {
     "kerb_ramps": f'node["kerb"="lowered"]({S},{W},{N},{E});',
@@ -45,6 +49,7 @@ OSM_QUERIES = {
     "footpaths": f'way["highway"~"footway|path|pedestrian"]({S},{W},{N},{E});',
     "arterial": f'way["highway"~"primary|secondary|trunk"]({S},{W},{N},{E});',
     "lit_paths": f'way["highway"]["lit"="yes"]({S},{W},{N},{E});',
+    "parks": f'way["leisure"~"park|garden"]({S},{W},{N},{E});',
 }
 
 
@@ -53,7 +58,7 @@ def fetch_overpass(name: str, q: str) -> None:
     if not cache.exists():
         print(f"overpass: {name}")
         body = f"[out:json][timeout:120];({q});out center;"
-        r = requests.post(OVERPASS, data={"data": body}, timeout=180)
+        r = requests.post(OVERPASS, data={"data": body}, headers=HEADERS, timeout=180)
         r.raise_for_status()
         cache.write_bytes(r.content)
     data = json.loads(cache.read_text(encoding="utf-8"))
@@ -105,14 +110,39 @@ def fetch_gtfs() -> None:
     print(f"stops: {len(gdf)} ({gdf.step_free.sum()} step-free, {gdf.has_late_service.sum()} late)")
 
 
+def fetch_toilets() -> None:
+    cache = RAW / "toilets.csv"
+    if not cache.exists():
+        print("downloading national toilet map...")
+        r = requests.get(TOILETS_URL, headers=HEADERS, timeout=180)
+        r.raise_for_status()
+        cache.write_bytes(r.content)
+    df = pd.read_csv(cache)
+    cols = {c.lower(): c for c in df.columns}
+    lat, lon = cols.get("latitude"), cols.get("longitude")
+    if not lat or not lon:
+        print(f"  WARNING: no lat/lon columns in toilet CSV: {list(df.columns)[:12]}")
+        return
+    df = df[df[lon].between(W, E) & df[lat].between(S, N)]
+    acc_cols = [c for c in df.columns if "accessible" in c.lower()]
+    df["accessible"] = df[acc_cols].any(axis=1) if acc_cols else False
+    gdf = gpd.GeoDataFrame(
+        df[["accessible"]],
+        geometry=gpd.points_from_xy(df[lon], df[lat]),
+        crs=CRS_WEB,
+    ).to_crs(CRS_METRIC)
+    gdf.to_parquet(INTERIM / "toilets.parquet")
+    print(f"toilets: {len(gdf)} ({int(gdf.accessible.sum())} accessible)")
+
+
 def main() -> None:
     for name, q in OSM_QUERIES.items():
         fetch_overpass(name, q)
+    fetch_toilets()
     if TFNSW_KEY:
         fetch_gtfs()
     else:
         print("no TfNSW key yet — using osm_transit_fallback for stops")
-    # TODO hour-1: toilets (TOILETS_URL) and parks (PARKS_URL), same pattern.
 
 
 if __name__ == "__main__":

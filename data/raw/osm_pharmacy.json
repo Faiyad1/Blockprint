@@ -1,0 +1,1286 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-29T06:10:56Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 265859878,
+  "lat": -33.8962247,
+  "lon": 151.2065438,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Club Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 265917440,
+  "lat": -33.8925377,
+  "lon": 151.2032207,
+  "tags": {
+    "addr:housenumber": "118A",
+    "addr:street": "Redfern Street",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "email": "goldcrosspharmacy@gmail.com",
+    "healthcare": "pharmacy",
+    "name": "Gold Cross",
+    "phone": "+61 2 9698 2155",
+    "website": "https://www.compoundingchemists.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 574171453,
+  "lat": -33.9170763,
+  "lon": 151.2305943,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date:opening_hours": "2026-07-14",
+    "healthcare": "pharmacy",
+    "name": "Pharmacy@UNSW",
+    "opening_hours": "Mo-Fr 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 743326523,
+  "lat": -33.8595605,
+  "lon": 151.2086055,
+  "tags": {
+    "addr:housenumber": "97",
+    "addr:postcode": "2000",
+    "addr:state": "NSW",
+    "addr:street": "George Street",
+    "addr:suburb": "The Rocks",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "The Rocks Chemist",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa,Su 08:30-20:00",
+    "phone": "+61 2 9247 2625"
+  }
+},
+{
+  "type": "node",
+  "id": 1732566733,
+  "lat": -33.8999199,
+  "lon": 151.1845252,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Erskineville Chemist",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1862621782,
+  "lat": -33.8961272,
+  "lon": 151.1539957,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Petersham Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 2365231369,
+  "lat": -33.8968930,
+  "lon": 151.1795630,
+  "tags": {
+    "addr:housenumber": "304-306",
+    "addr:postcode": "2042",
+    "addr:street": "King Street",
+    "addr:suburb": "Newtown",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Bob's Chemist Newtown"
+  }
+},
+{
+  "type": "node",
+  "id": 2365231907,
+  "lat": -33.8957880,
+  "lon": 151.1813510,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 2365247986,
+  "lat": -33.8989500,
+  "lon": 151.1737140,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Cincotta Discount Chemist",
+    "brand:wikidata": "Q131758504",
+    "healthcare": "pharmacy",
+    "name": "Cincotta Discount Chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2573959559,
+  "lat": -33.9129016,
+  "lon": 151.2395958,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2026-03",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Ace Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 2643642763,
+  "lat": -33.9297808,
+  "lon": 151.1944458,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart",
+    "source": "voice"
+  }
+},
+{
+  "type": "node",
+  "id": 2938269401,
+  "lat": -33.8930490,
+  "lon": 151.1849990,
+  "tags": {
+    "addr:housenumber": "90-92",
+    "addr:postcode": "2042",
+    "addr:street": "King Street",
+    "addr:suburb": "Newtown",
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Day & Night Chemist @ Newtown",
+    "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3513602264,
+  "lat": -33.8963982,
+  "lon": 151.1993202,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-08",
+    "healthcare": "pharmacy",
+    "name": "Kirby's Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 3617634593,
+  "lat": -33.8826098,
+  "lon": 151.1570768,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "check_date:opening_hours": "2025-11-03",
+    "dispensing": "yes",
+    "full_name": "Chemist Warehouse Leichhardt",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:30-19:00; Su 09:00-19:00",
+    "website": "https://www.chemistwarehouse.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3949642157,
+  "lat": -33.8733517,
+  "lon": 151.2086475,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:The Coffee Club",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 3977545469,
+  "lat": -33.8829488,
+  "lon": 151.1939376,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "check_date": "2025-06-21",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "level": "3",
+    "name": "Priceline Pharmacy",
+    "website": "https://www.priceline.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 3981216562,
+  "lat": -33.8766386,
+  "lon": 151.2064216,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "check_date": "2025-08-21",
+    "healthcare": "pharmacy",
+    "level": "-1",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-20:00; Su 10:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3996822660,
+  "lat": -33.8727032,
+  "lon": 151.2070758,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 4036221995,
+  "lat": -33.8633436,
+  "lon": 151.2038438,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Kent St Pharmacy",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 4208167189,
+  "lat": -33.8939418,
+  "lon": 151.1639605,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Stanmore Pharmacy",
+    "opening_hours": "Mo-Fr 08:30-18:30; Sa,Su 09:00-14:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4242650692,
+  "lat": -33.8614771,
+  "lon": 151.2110270,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Quay Pharmacy",
+    "opening_hours": "Mo-Fr 07:30-20:30; Sa,Su 08:00-20:30",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4448583531,
+  "lat": -33.8696744,
+  "lon": 151.1966975,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Pyrmont Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4571592289,
+  "lat": -33.8645033,
+  "lon": 151.2072728,
+  "tags": {
+    "addr:housenumber": "Shop 1, 261",
+    "addr:postcode": "2000",
+    "addr:street": "George Street",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Health Line Pharmacy",
+    "opening_hours": "Mo-Fr 07:30-18:50; Sa 09:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4735970621,
+  "lat": -33.8753243,
+  "lon": 151.2222370,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Amcal",
+    "brand:wikidata": "Q63367373",
+    "check_date": "2025-12-02",
+    "healthcare": "pharmacy",
+    "name": "Amcal"
+  }
+},
+{
+  "type": "node",
+  "id": 4735972922,
+  "lat": -33.8731600,
+  "lon": 151.2250906,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Blakes Pharmacy",
+    "name:en": "Blakes Pharmacy",
+    "opening_hours": "Mo-Fr 08:30-23:00; Sa-Su 09:00-21:00",
+    "website": "https://www.blakespharmacy.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 4788724035,
+  "lat": -33.8704508,
+  "lon": 151.2068121,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "check_date": "2026-07-16",
+    "check_date:opening_hours": "2026-07-16",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa,Su 09:00-19:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4865595821,
+  "lat": -33.8655917,
+  "lon": 151.2046112,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4865595822,
+  "lat": -33.8670086,
+  "lon": 151.2086600,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "check_date": "2024-10-03",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 4865599422,
+  "lat": -33.8672437,
+  "lon": 151.2110290,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 5099943838,
+  "lat": -33.8574800,
+  "lon": 151.1813520,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "name": "BALMAIN COMMUNITY PHARMACY"
+  }
+},
+{
+  "type": "node",
+  "id": 5099943839,
+  "lat": -33.8574540,
+  "lon": 151.1804690,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 5237774303,
+  "lat": -33.8804220,
+  "lon": 151.2044516,
+  "tags": {
+    "addr:housenumber": "75-77",
+    "addr:street": "Ultimo Road",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Chinese Ginsengs & Herbs Co.",
+    "name:vi": "Trung Hoa Sâm Nhung Dược Hàng"
+  }
+},
+{
+  "type": "node",
+  "id": 5295514702,
+  "lat": -33.9292777,
+  "lon": 151.1536870,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-11",
+    "dispensing": "yes",
+    "level": "0",
+    "name": "Discover Pharmacy + Compounding",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-18:00; Su 09:00-17:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5367303510,
+  "lat": -33.8812860,
+  "lon": 151.2165016,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-09",
+    "healthcare": "pharmacy",
+    "name": "Serafim Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 5369921303,
+  "lat": -33.8725949,
+  "lon": 151.2188932,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Woolloomooloo Pharmacy",
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 09:00-13:00",
+    "website": "https://www.wpharmacy.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5608349154,
+  "lat": -33.8917085,
+  "lon": 151.2127857,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "check_date": "2026-05-02",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 5608433421,
+  "lat": -33.8795050,
+  "lon": 151.2055833,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Redmond Fuss Pharmacy",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-18:00; Su off"
+  }
+},
+{
+  "type": "node",
+  "id": 5610439528,
+  "lat": -33.8900099,
+  "lon": 151.2132364,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Surry Hills Pharmacy",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5839127337,
+  "lat": -33.8992703,
+  "lon": 151.1709963,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-09-03",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Enmore 7 Day Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 5872600639,
+  "lat": -33.9128153,
+  "lon": 151.2390551,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-19:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5872687910,
+  "lat": -33.9130278,
+  "lon": 151.2393768,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-11",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 6006789337,
+  "lat": -33.8766425,
+  "lon": 151.2092930,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:30-19:00; PH 10:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 6250776254,
+  "lat": -33.8657652,
+  "lon": 151.2061921,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Amcal",
+    "brand:wikidata": "Q63367373",
+    "healthcare": "pharmacy",
+    "level": "-2",
+    "name": "Amcal Express"
+  }
+},
+{
+  "type": "node",
+  "id": 6261169200,
+  "lat": -33.8648524,
+  "lon": 151.2018687,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Barangaroo Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6273392861,
+  "lat": -33.8834410,
+  "lon": 151.2086893,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Caremore Centennial Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6408441995,
+  "lat": -33.8758725,
+  "lon": 151.1840398,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Glebe Point Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6548678775,
+  "lat": -33.8662501,
+  "lon": 151.2082952,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Hunter Connect Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6622307519,
+  "lat": -33.8793265,
+  "lon": 151.2363320,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Blooms The Chemist",
+    "brand:wikidata": "Q63367543",
+    "check_date": "2024-11-10",
+    "dispensing": "yes",
+    "drive_through": "no",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Blooms The Chemist",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 6698566368,
+  "lat": -33.9120489,
+  "lon": 151.2238114,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Kensington Newsagency and Pharmacy",
+    "shop": "newsagent",
+    "website": "https://mediadvice.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 6698602888,
+  "lat": -33.9235023,
+  "lon": 151.2277644,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Blooms The Chemist",
+    "brand:wikidata": "Q63367543",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Blooms The Chemist",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 6728743933,
+  "lat": -33.8686457,
+  "lon": 151.2119557,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "The Bland Centre Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 6734688485,
+  "lat": -33.8770497,
+  "lon": 151.2108033,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "in2health Pharmacy",
+    "opening_hours": "Mo-Fr 09:00-17:30"
+  }
+},
+{
+  "type": "node",
+  "id": 6738140586,
+  "lat": -33.8759108,
+  "lon": 151.2065041,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su 08:00-21:00",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7005769386,
+  "lat": -33.8696525,
+  "lon": 151.2080349,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "check_date": "2025-04-25",
+    "disused:amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7456894613,
+  "lat": -33.8858318,
+  "lon": 151.1581107,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Norton Street",
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "check_date:opening_hours": "2026-07-05",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa,Su 09:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7495616265,
+  "lat": -33.8978350,
+  "lon": 151.2128910,
+  "tags": {
+    "amenity": "pharmacy",
+    "check_date": "2025-04-26",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Danks Street Discount Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 8288988110,
+  "lat": -33.9047229,
+  "lon": 151.2128478,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "brand:wikipedia": "en:Terry White Chemmart",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "TerryWhite Chemmart",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "website": "https://terrywhitechemmart.com.au/stores/terrywhite-chemmart-east-village-zetland"
+  }
+},
+{
+  "type": "node",
+  "id": 8624636073,
+  "lat": -33.8847977,
+  "lon": 151.2003490,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "check_date": "2025-08",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "level": "-1",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 08:00-22:00;Sa-Su 09:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8931699245,
+  "lat": -33.8522018,
+  "lon": 151.1554149,
+  "tags": {
+    "addr:housenumber": "159-167",
+    "addr:postcode": "2047",
+    "addr:state": "NSW",
+    "addr:street": "Victoria Road",
+    "addr:suburb": "Drummoyne",
+    "addr:unit": "1",
+    "amenity": "pharmacy",
+    "branch": "Drummoyne",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "check_date": "2026-03",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart",
+    "phone": "+61 2 9181 3143",
+    "shop": "chemist",
+    "website": "https://terrywhitechemmart.com.au/stores/terrywhite-chemmart-drummoyne"
+  }
+},
+{
+  "type": "node",
+  "id": 9329081676,
+  "lat": -33.9042880,
+  "lon": 151.1898354,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Erskineville Compounding Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9395973838,
+  "lat": -33.8960622,
+  "lon": 151.1954167,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "brand:wikipedia": "en:Priceline (Australia)",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9567298172,
+  "lat": -33.9134350,
+  "lon": 151.2052660,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Rothschild Avenue Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9610209443,
+  "lat": -33.8556052,
+  "lon": 151.1623711,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "brand:wikipedia": "en:Chemist Warehouse",
+    "check_date": "2026-04-18",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "level:ref": "1",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 9647272829,
+  "lat": -33.8658652,
+  "lon": 151.2070060,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "healthcare": "pharmacy",
+    "level": "-1",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9892668726,
+  "lat": -33.8735843,
+  "lon": 151.2060307,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "check_date": "2025-11-11",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 9892859641,
+  "lat": -33.8714127,
+  "lon": 151.2080593,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "check_date": "2025-01-25",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 10650396148,
+  "lat": -33.8705445,
+  "lon": 151.2251289,
+  "tags": {
+    "addr:postcode": "2011",
+    "amenity": "pharmacy",
+    "brand": "Amcal",
+    "brand:wikidata": "Q63367373",
+    "healthcare": "pharmacy",
+    "name": "Amcal",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-17:00; Su 10:00-16:00",
+    "website": "https://www.amcal.com.au",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10650446621,
+  "lat": -33.8722665,
+  "lon": 151.2252721,
+  "tags": {
+    "addr:postcode": "2011",
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00; Su 10:00-18:00",
+    "website": "https://www.priceline.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 10724728190,
+  "lat": -33.8555558,
+  "lon": 151.1632815,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "level:ref": "G",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Su 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 10769891593,
+  "lat": -33.8831547,
+  "lon": 151.2033301,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "check_date": "2025-10-24",
+    "check_date:opening_hours": "2025-10-24",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-We 08:00-22:30; Th-Sa 08:00-23:00; Su 08:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11170858792,
+  "lat": -33.8731368,
+  "lon": 151.2245142,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Potts Point Pharmacy",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "website": "https://www.pottspointpharmacy.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 11198682487,
+  "lat": -33.8744019,
+  "lon": 151.2227258,
+  "tags": {
+    "addr:housenumber": "111",
+    "addr:street": "Darlinghurst Road",
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-18:00; Su 09:00-14:00",
+    "phone": "+61 2 9358 1822",
+    "website": "https://terrywhitechemmart.com.au/stores/terrywhite-chemmart-kings-cross"
+  }
+},
+{
+  "type": "node",
+  "id": 11410777842,
+  "lat": -33.8667148,
+  "lon": 151.2122254,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart"
+  }
+},
+{
+  "type": "node",
+  "id": 11471881756,
+  "lat": -33.8857890,
+  "lon": 151.2287284,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Paddington Compounding Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 11730990533,
+  "lat": -33.8666743,
+  "lon": 151.2086949,
+  "tags": {
+    "addr:housenumber": "80",
+    "addr:street": "Pitt Street",
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-We 07:30-20:30; Th 07:30-21:00; Fr 07:30-20:30; Sa 08:00-19:30; Su 09:00-18:00; PH 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11867633084,
+  "lat": -33.8697899,
+  "lon": 151.1933059,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart",
+    "shop": "chemist",
+    "website": "https://terrywhitechemmart.com.au/stores/terrywhite-chemmart-miller-street"
+  }
+},
+{
+  "type": "node",
+  "id": 12327744483,
+  "lat": -33.8791093,
+  "lon": 151.2365242,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse"
+  }
+},
+{
+  "type": "node",
+  "id": 12385327410,
+  "lat": -33.8764703,
+  "lon": 151.2212070,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Darlinghurst Chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 12385327424,
+  "lat": -33.8773432,
+  "lon": 151.2217673,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Bill Warner Chemist",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-13:00; Su off",
+    "website": "https://www.billwarnerchemist.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 13279332545,
+  "lat": -33.8831344,
+  "lon": 151.1913141,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "check_date": "2025-11-04",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13305580837,
+  "lat": -33.9116189,
+  "lon": 151.1551246,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Chemist Warehouse",
+    "brand:wikidata": "Q48782120",
+    "dispensing": "yes",
+    "healthcare": "pharmacy",
+    "name": "Chemist Warehouse",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:30-19:00; Su 09:00-19:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13327464091,
+  "lat": -33.8830853,
+  "lon": 151.1939032,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "healthcare": "pharmacy",
+    "level": "3",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13523905710,
+  "lat": -33.8662854,
+  "lon": 151.2026747,
+  "tags": {
+    "amenity": "pharmacy",
+    "contact:email": "shelleystreet.chemist@gmail.com",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Shelley Street Chemist",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Central Barangaroo Pharmacy Pty Ltd"
+  }
+},
+{
+  "type": "node",
+  "id": 13685942825,
+  "lat": -33.9231624,
+  "lon": 151.1863806,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "2020",
+    "addr:state": "NSW",
+    "addr:street": "Etherden Walk",
+    "addr:suburb": "Mascot",
+    "addr:unit": "7-9",
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "brand:wikidata": "Q7242652",
+    "healthcare": "pharmacy",
+    "name": "Priceline Pharmacy",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00",
+    "website": "https://www.priceline.com.au/store-finder/country/AU/0886"
+  }
+},
+{
+  "type": "node",
+  "id": 13752301237,
+  "lat": -33.8981910,
+  "lon": 151.1782141,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Newtown Pharmacy",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00; Su off; PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 13812478581,
+  "lat": -33.8542266,
+  "lon": 151.1494234,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "TerryWhite Chemmart",
+    "brand:wikidata": "Q24089773",
+    "healthcare": "pharmacy",
+    "name": "TerryWhite Chemmart",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 13812495946,
+  "lat": -33.8511165,
+  "lon": 151.1542488,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Destro's Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13823265939,
+  "lat": -33.8647584,
+  "lon": 151.2023834,
+  "tags": {
+    "amenity": "pharmacy",
+    "brand": "Priceline Pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Priceline Pharmacy"
+  }
+},
+{
+  "type": "node",
+  "id": 13874806424,
+  "lat": -33.8625380,
+  "lon": 151.2116676,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy"
+  }
+}
+
+  ]
+}

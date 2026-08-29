@@ -1,33 +1,39 @@
 """Step 1 — mesh block polygons, clipped and simplified.
 
-Input (place in data/raw/, downloaded once in hour 0):
-  - ABS ASGS Ed 3 Mesh Blocks shapefile/GeoPackage for NSW
-    https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/latest-release
-  - City of Sydney LGA boundary (from the same ASGS release, or City of Sydney Data Hub)
+Inputs in data/raw/ (downloaded once):
+  MB_2021_AUST_SHP_GDA2020.zip   ABS ASGS Ed 3 mesh blocks, whole country
+  LGA_2025_AUST_GDA2020.zip      ABS LGA boundaries
 
 Output: data/interim/blocks.parquet  (mb code + geometry, EPSG:7856)
 """
 import geopandas as gpd
 
-from config import RAW, INTERIM, CRS_METRIC
+from config import RAW, INTERIM, BBOX, CRS_METRIC
 
-MESH_BLOCKS = RAW / "MB_2021_AUST_GDA2020.gpkg"  # adjust to actual filename
-LGA = RAW / "LGA_2024_AUST_GDA2020.gpkg"         # adjust to actual filename
+MESH_BLOCKS = RAW / "MB_2021_AUST_SHP_GDA2020.zip"
+LGA = RAW / "LGA_2025_AUST_GDA2020.zip"
 LGA_NAME = "Sydney"
 
 
 def main() -> None:
-    print("loading mesh blocks (this is the big one, be patient)...")
-    mb = gpd.read_file(MESH_BLOCKS)
-    lga = gpd.read_file(LGA)
-    lga = lga[lga["LGA_NAME_2024"].str.contains(LGA_NAME, case=False)]
+    print("loading LGA boundary...")
+    lga = gpd.read_file(LGA, bbox=BBOX)
+    name_col = next(c for c in lga.columns if c.startswith("LGA_NAME"))
+    lga = lga[lga[name_col].str.contains(LGA_NAME, case=False, na=False)]
+    print(f"  LGA rows: {len(lga)} ({', '.join(lga[name_col])})")
+
+    print("loading mesh blocks in bbox (bbox read keeps this fast)...")
+    mb = gpd.read_file(MESH_BLOCKS, bbox=BBOX)
+    code_col = next(c for c in mb.columns if c.startswith("MB_CODE"))
+    print(f"  mesh blocks in bbox: {len(mb)}")
 
     mb = mb.to_crs(CRS_METRIC)
     lga = lga.to_crs(CRS_METRIC)
 
     print("clipping to LGA...")
     keep = mb.sjoin(lga[["geometry"]], predicate="intersects").drop(columns="index_right")
-    keep = keep.rename(columns={"MB_CODE_2021": "mb"})[["mb", "geometry"]]
+    keep = keep.rename(columns={code_col: "mb"})[["mb", "geometry"]]
+    keep = keep[~keep.geometry.is_empty & keep.geometry.notna()].reset_index(drop=True)
 
     # browser-friendly geometry; 2 m tolerance is invisible at city scale
     keep["geometry"] = keep.geometry.simplify(2.0)

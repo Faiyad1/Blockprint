@@ -1,0 +1,2150 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-29T06:10:56Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 20827870,
+  "lat": -33.8770719,
+  "lon": 151.2071568,
+  "tags": {
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "level": "-1",
+    "name": "Coles",
+    "opening_hours": "Mo-Su 06:00-24:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q1339055",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 266280020,
+  "lat": -33.8957343,
+  "lon": 151.1992232,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "check_date": "2026-01-05",
+    "check_date:opening_hours": "2026-01-05",
+    "name": "IGA",
+    "opening_hours": "Mo-Fr 07:00-08:30; Sa,Su 08:00-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 305516372,
+  "lat": -33.8959703,
+  "lon": 151.1805746,
+  "tags": {
+    "addr:housenumber": "259",
+    "addr:postcode": "2042",
+    "addr:state": "NSW",
+    "addr:street": "King Street",
+    "addr:suburb": "Newtown",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (Australian supermarket group)",
+    "name": "IGA",
+    "opening_hours": "08:00-22:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 669409873,
+  "lat": -33.8653581,
+  "lon": 151.2066638,
+  "tags": {
+    "name": "Get & Go",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 762935129,
+  "lat": -33.9142324,
+  "lon": 151.2013529,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (Australian supermarket group)",
+    "name": "IGA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 780160558,
+  "lat": -33.8648113,
+  "lon": 151.2064613,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "name": "Woolworths Metro",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "source": "local_knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 885685987,
+  "lat": -33.8579345,
+  "lon": 151.1811878,
+  "tags": {
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "name": "Woolworths",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 1074623575,
+  "lat": -33.9239787,
+  "lon": 151.2275950,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (supermarkets)",
+    "name": "IGA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 1343250217,
+  "lat": -33.8656811,
+  "lon": 151.2062069,
+  "tags": {
+    "branch": "Central Wynyard Express",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "check_date": "2025-09-06",
+    "level": "-1",
+    "name": "Coles",
+    "note": "Middle level towards Carrington St Exit.",
+    "opening_hours": "Mo-Fr 06:00-00:00; Sa, Su 07:00-22:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket",
+    "website": "https://www.coles.com.au/find-stores/coles/nsw/sydney-840"
+  }
+},
+{
+  "type": "node",
+  "id": 1564720150,
+  "lat": -33.8945995,
+  "lon": 151.2049073,
+  "tags": {
+    "addr:housenumber": "261-265",
+    "addr:postcode": "2016",
+    "addr:street": "Chalmers Street",
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "designation": "supermarket",
+    "name": "Woolworths",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://www.woolworths.com.au/wps/wcm/connect/website/woolworths",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1722871177,
+  "lat": -33.8701406,
+  "lon": 151.2252405,
+  "tags": {
+    "addr:housenumber": "81",
+    "addr:postcode": "2011",
+    "addr:street": "Macleay Street",
+    "air_conditioning": "yes",
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "phone": "+61 2 9308 7391",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/shop/storelocator/nsw-potts-point-1055",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1732566722,
+  "lat": -33.8999297,
+  "lon": 151.1845753,
+  "tags": {
+    "name": "Welcome Mart",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1736956868,
+  "lat": -33.8801277,
+  "lon": 151.1874169,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (Australian supermarket group)",
+    "name": "IGA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 1899876558,
+  "lat": -33.8863247,
+  "lon": 151.1582955,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Norton Street",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "check_date:opening_hours": "2026-04-02",
+    "full_name": "Coles Leichhardt",
+    "level": "0",
+    "name": "Coles",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "shop": "supermarket",
+    "website": "https://www.coles.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1962216345,
+  "lat": -33.8758585,
+  "lon": 151.2053439,
+  "tags": {
+    "addr:housenumber": "537-539",
+    "addr:street": "Kent Street",
+    "check_date": "2024-08-16",
+    "name": "Genki Mart",
+    "opening_hours": "Mo-Sa 10:30-19:00; Su 10:30-18:00",
+    "phone": "+61 493 413 701",
+    "shop": "supermarket",
+    "website": "https://genkimart.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2073247385,
+  "lat": -33.8750628,
+  "lon": 151.2224263,
+  "tags": {
+    "addr:housenumber": "88-94",
+    "addr:street": "Darlinghurst Road",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "level": "0",
+    "name": "Coles",
+    "opening_hours": "07:00-23:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q1339055",
+    "phone": "+61 2 9358 6247",
+    "shop": "supermarket",
+    "website": "https://www.coles.com.au/find-stores/coles/nsw/kings-cross-754"
+  }
+},
+{
+  "type": "node",
+  "id": 2140866322,
+  "lat": -33.9018541,
+  "lon": 151.2005587,
+  "tags": {
+    "branch": "Ricks IGA Alexandria",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (Australian supermarket group)",
+    "name": "IGA",
+    "opening_hours": "Mo-Fr 07:00-20:30; Sa,Su 08:00-20:30",
+    "phone": "+61 2 8005 3100",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://www.facebook.com/RicksIgaAlexandria/"
+  }
+},
+{
+  "type": "node",
+  "id": 2163387592,
+  "lat": -33.8877225,
+  "lon": 151.1803290,
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:postcode": "2050",
+    "addr:street": "Missenden Road",
+    "addr:suburb": "Camperdown",
+    "atm": "yes",
+    "check_date:opening_hours": "2026-06-03",
+    "name": "QE Foodstores",
+    "opening_hours": "Mo-Su 07:00-22:30",
+    "operator": "QE Foodstores",
+    "phone": "+61 2 8964 6453",
+    "shop": "supermarket",
+    "website": "https://www.qefoodstores.com.au/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2179111958,
+  "lat": -33.8833118,
+  "lon": 151.2159415,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Su 07:00-00:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/shop/storelocator/nsw-surry-hills-1256"
+  }
+},
+{
+  "type": "node",
+  "id": 2312254908,
+  "lat": -33.8776361,
+  "lon": 151.2129954,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "check_date": "2026-07-12",
+    "name": "IGA",
+    "opening_hours": "06:30-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2365223362,
+  "lat": -33.8999540,
+  "lon": 151.1782390,
+  "tags": {
+    "addr:housenumber": "408",
+    "addr:postcode": "2042",
+    "addr:street": "King Street",
+    "addr:suburb": "Newtown",
+    "atm": "yes",
+    "email": "newtown@qefoodstores.com.au",
+    "name": "QE Foodstores",
+    "operator": "Newtown Mart Pty Ltd",
+    "phone": "+61 2 9171 5716",
+    "shop": "supermarket",
+    "website": "https://newtown.qefoodstores.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2365245613,
+  "lat": -33.8988646,
+  "lon": 151.1724307,
+  "tags": {
+    "brand": "Foodworks",
+    "brand:wikidata": "Q5465579",
+    "brand:wikipedia": "en:FoodWorks",
+    "check_date": "2025-09-03",
+    "name": "Foodworks",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2445268314,
+  "lat": -33.8694880,
+  "lon": 151.1963751,
+  "tags": {
+    "addr:postcode": "2009",
+    "addr:street": "Edward Street",
+    "addr:suburb": "Pyrmont",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "name": "Coles",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 2534813061,
+  "lat": -33.8821210,
+  "lon": 151.2278436,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "check_date": "2023-04-23",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2546391062,
+  "lat": -33.8975883,
+  "lon": 151.2133838,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Crystal Street",
+    "branch": "Waterloo",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "name": "Coles",
+    "opening_hours": "Mo-Su 07:00-23:55",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2594641611,
+  "lat": -33.8796334,
+  "lon": 151.2031238,
+  "tags": {
+    "addr:housenumber": "3-9",
+    "addr:street": "Hay Street",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "email": "orders@thaikee.com.au",
+    "level": "1",
+    "name": "Thai Kee IGA",
+    "opening_hours": "Mo-Su 09:30-22:00",
+    "phone": "+61 2 9211 3150",
+    "shop": "supermarket",
+    "website": "https://www.thaikee.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 2763940591,
+  "lat": -33.9243293,
+  "lon": 151.2122813,
+  "tags": {
+    "addr:housenumber": "16D",
+    "addr:street": "Evans Avenue",
+    "brand": "Aldi",
+    "brand:wikidata": "Q41171672",
+    "brand:wikipedia": "en:Aldi",
+    "check_date:opening_hours": "2023-05-05",
+    "full_name": "ALDI Eastlakes",
+    "name": "Aldi",
+    "opening_hours": "Mo-We,Fr-Su 08:30-20:00; Th 08:30-21:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/eastlakes/16d-evans-ave",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2789640221,
+  "lat": -33.8950211,
+  "lon": 151.1641443,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:postcode": "2048",
+    "addr:street": "Holt Street",
+    "addr:suburb": "Stanmore",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "name": "IGA Stanmore Plaza",
+    "opening_hours": "Mo-Th 08:00-19:30, Fr 08:00-24:00, Sa 08:00-18:30",
+    "operator": "IGA",
+    "phone": "+61 2 9560 4680",
+    "shop": "supermarket",
+    "website": "https://iga.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 2958855273,
+  "lat": -33.8821949,
+  "lon": 151.1732298,
+  "tags": {
+    "branch": "Annandale",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (Australian supermarket group)",
+    "name": "IGA",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "shop": "supermarket",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2960529183,
+  "lat": -33.8730451,
+  "lon": 151.2239054,
+  "tags": {
+    "addr:housenumber": "24-30",
+    "addr:postcode": "2011",
+    "addr:street": "Springfield Avenue",
+    "brand": "Harris Market Farms",
+    "brand:wikidata": "Q5664888",
+    "brand:wikipedia": "en:Harris Farm Markets",
+    "check_date": "2025-10-16",
+    "level": "-1",
+    "name": "Harris Farm Markets",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Harris Farm",
+    "phone": "+61 2 9394 3220",
+    "shop": "supermarket",
+    "website": "https://www.harrisfarm.com.au/pages/potts-point"
+  }
+},
+{
+  "type": "node",
+  "id": 2972865045,
+  "lat": -33.8702280,
+  "lon": 151.1929945,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "check_date:opening_hours": "2024-04-30",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Sa 07:00-23:00; Su 08:00-23:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "source": "survey",
+    "source:location": "extrapolation"
+  }
+},
+{
+  "type": "node",
+  "id": 2980323934,
+  "lat": -33.8792614,
+  "lon": 151.2355134,
+  "tags": {
+    "addr:housenumber": "203-233",
+    "addr:street": "New South Head Road",
+    "brand": "Aldi",
+    "brand:wikidata": "Q41171672",
+    "brand:wikipedia": "en:Aldi",
+    "check_date": "2024-11-10",
+    "check_date:opening_hours": "2023-05-05",
+    "full_name": "ALDI Edgecliff",
+    "name": "Aldi",
+    "opening_hours": "Mo-Su 08:30-20:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/edgecliff/203-233-new-south-head-road",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3088471552,
+  "lat": -33.8851142,
+  "lon": 151.1494127,
+  "tags": {
+    "brand": "ALDI",
+    "brand:wikidata": "Q41171672",
+    "brand:wikipedia": "en:Aldi",
+    "name": "ALDI",
+    "opening_hours": "Fr-We 08:30-20:00; Th 08:30-21:00",
+    "shop": "supermarket",
+    "website": "https://www.aldi.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3088471554,
+  "lat": -33.8849317,
+  "lon": 151.1483629,
+  "tags": {
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "name": "Woolworths",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3108379207,
+  "lat": -33.8977510,
+  "lon": 151.2122218,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:postcode": "2017",
+    "addr:street": "Danks Street",
+    "addr:suburb": "Waterloo",
+    "brand": "Aldi",
+    "brand:wikidata": "Q41171672",
+    "brand:wikipedia": "en:Aldi",
+    "check_date:opening_hours": "2024-11-04",
+    "description": "Requires $2 dollar coin to operate shopping trolleys.",
+    "full_name": "ALDI Waterloo",
+    "name": "Aldi",
+    "opening_hours": "Mo-Su 08:30-20:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/waterloo/20-a-danks-street",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3390252746,
+  "lat": -33.9048457,
+  "lon": 151.2131902,
+  "tags": {
+    "addr:postcode": "2017",
+    "addr:state": "NSW",
+    "addr:street": "O'Dea Avenue",
+    "addr:suburb": "Zetland",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "check_date:opening_hours": "2021-04-18",
+    "diet:kosher": "yes",
+    "level": "0",
+    "name": "Coles",
+    "opening_hours": "Mo-Su 06:00-24:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket",
+    "source": "local knowledge",
+    "website": "https://www.coles.com.au/find-stores/coles/nsw/zetland-7569",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3473228436,
+  "lat": -33.8794577,
+  "lon": 151.2368122,
+  "tags": {
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "level": "0",
+    "name": "Coles",
+    "opening_hours": "Mo-Su,PH 07:00-24:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket",
+    "website": "https://www.coles.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 3568163512,
+  "lat": -33.9242449,
+  "lon": 151.1874259,
+  "tags": {
+    "name": "ALG Mini Mart",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3610075757,
+  "lat": -33.8830311,
+  "lon": 151.1943353,
+  "tags": {
+    "addr:floor": "0",
+    "addr:housenumber": "1",
+    "addr:street": "Bay Street",
+    "brand": "Aldi",
+    "brand:wikidata": "Q125054",
+    "brand:wikipedia": "en:Aldi",
+    "check_date:opening_hours": "2023-05-05",
+    "full_name": "ALDI Broadway",
+    "name": "ALDI",
+    "not:brand:wikidata": "Q41171672",
+    "opening_hours": "Mo-We,Fr-Su 08:30-20:00; Th 08:30-21:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/broadway/1-bay-street",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3610075758,
+  "lat": -33.8838408,
+  "lon": 151.1932625,
+  "tags": {
+    "addr:floor": "0",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "level": "0",
+    "name": "Coles",
+    "opening_hours": "PH,Mo-Su 06:00-24:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket",
+    "website": "https://www.coles.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3915727757,
+  "lat": -33.8732903,
+  "lon": 151.1957989,
+  "tags": {
+    "addr:housenumber": "261",
+    "addr:street": "Harris Street",
+    "brand": "Friendly Grocer",
+    "brand:wikipedia": "en;Friendly Grocer",
+    "level": "0",
+    "name": "Friendly Grocer",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "shop": "supermarket",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3915727857,
+  "lat": -33.8737683,
+  "lon": 151.1960375,
+  "tags": {
+    "addr:housenumber": "313",
+    "addr:street": "Harris Street",
+    "name": "Ultimo Pyrmont Supermarket",
+    "shop": "supermarket",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3918035357,
+  "lat": -33.8810537,
+  "lon": 151.2027041,
+  "tags": {
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "name": "Woolworths",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 3921514862,
+  "lat": -33.8847889,
+  "lon": 151.2006390,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "check_date": "2025-08-18",
+    "level": "-1",
+    "name": "Woolworths Metro",
+    "opening_hours": "07:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.woolworths.com.au/shop/storelocator/nsw-chippendale-1905",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3951219159,
+  "lat": -33.8928234,
+  "lon": 151.1861078,
+  "tags": {
+    "name": "Miracle",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3981216561,
+  "lat": -33.8774327,
+  "lon": 151.2068763,
+  "tags": {
+    "cuisine": "asian",
+    "level": "-1",
+    "name": "Miracle Asian Supermarket",
+    "opening_hours": "Mo-Fr 08:30-24:00; Sa,Su 09:00-24:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4017563989,
+  "lat": -33.8837104,
+  "lon": 151.2084909,
+  "tags": {
+    "addr:housenumber": "302-306",
+    "addr:street": "Elizabeth Street",
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "check_date:opening_hours": "2025-06",
+    "level": "0",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:ref:abn": "88 000 014 675",
+    "operator:wikidata": "Q607272",
+    "phone": "+61 2 8736 7401",
+    "ref": "1669 Central Station",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/Shop/ShopLocator/NSW-Surry-Hills-1669"
+  }
+},
+{
+  "type": "node",
+  "id": 4055985491,
+  "lat": -33.8721554,
+  "lon": 151.2288401,
+  "tags": {
+    "check_date": "2025-07-03",
+    "level": "0",
+    "name": "Elizabeth Bay Deli",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4056116367,
+  "lat": -33.8788576,
+  "lon": 151.2135219,
+  "tags": {
+    "brand": "ALDI",
+    "brand:wikidata": "Q41171672",
+    "brand:wikipedia": "en:Aldi",
+    "check_date:opening_hours": "2023-05-05",
+    "description": "no liquor",
+    "full_name": "ALDI Darlinghurst",
+    "name": "ALDI",
+    "opening_hours": "Mo-Fr 08:30-21:00; Sa-Su 08:30-20:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/darlinghurst/cnr-oxford-street-pelican-street"
+  }
+},
+{
+  "type": "node",
+  "id": 4089598728,
+  "lat": -33.8926220,
+  "lon": 151.1995018,
+  "tags": {
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "name": "Spar",
+    "operator": "Spar",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4108548890,
+  "lat": -33.8738128,
+  "lon": 151.2162076,
+  "tags": {
+    "addr:street": "Crown Street",
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "floor": "0",
+    "level": "0",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/shop/storelocator/nsw-woolloomooloo-1486"
+  }
+},
+{
+  "type": "node",
+  "id": 4386171594,
+  "lat": -33.9229274,
+  "lon": 151.1858394,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:postcode": "2020",
+    "addr:street": "Church Avenue",
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "name": "Woolworths",
+    "name:en": "Woolworths",
+    "opening_hours": "Tu-Su 06:00-22:00, Mo 08:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "phone": "+61 2 8565 9333",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 4474586289,
+  "lat": -33.8510173,
+  "lon": 151.1541531,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "name": "IGA - Drummoyne",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4491615091,
+  "lat": -33.8963345,
+  "lon": 151.1587466,
+  "tags": {
+    "name": "Mayfair Fresh",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4512639894,
+  "lat": -33.8915961,
+  "lon": 151.2140183,
+  "tags": {
+    "contact:facebook": "mgmspices",
+    "name": "MGM Spices",
+    "origin": "indian",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4661347118,
+  "lat": -33.8653140,
+  "lon": 151.2026518,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "level": "0",
+    "name": "Woolworths Metro",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4854573422,
+  "lat": -33.8964409,
+  "lon": 151.1537982,
+  "tags": {
+    "brand": "Foodworks",
+    "brand:wikidata": "Q5465579",
+    "brand:wikipedia": "en:FoodWorks",
+    "name": "Foodworks",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4924219553,
+  "lat": -33.9027374,
+  "lon": 151.1946733,
+  "tags": {
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "check_date": "2026-05-09",
+    "name": "Woolworths",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "phone": "+61 2 8565 9353",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4930792221,
+  "lat": -33.8761678,
+  "lon": 151.1779475,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "2037",
+    "addr:street": "Dalgal Way",
+    "addr:suburb": "Forest Lodge",
+    "check_date": "2025-02-09",
+    "level": "1",
+    "name": "Supamart",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator:ref": "45 793 629 495",
+    "phone": "+61 2 8321 9886",
+    "shop": "supermarket",
+    "toilets:wheelchair": "yes",
+    "website": "http://www.supamartiga.com.au",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5246538692,
+  "lat": -33.8982656,
+  "lon": 151.1787524,
+  "tags": {
+    "branch": "Newtown",
+    "brand": "Aldi",
+    "brand:wikipedia": "en:Aldi",
+    "name": "ALDI Corner Store",
+    "opening_hours": "Mo-We,Fr 08:00-20:00; Th,Sa-Su 08:30-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5449998821,
+  "lat": -33.8567941,
+  "lon": 151.2058458,
+  "tags": {
+    "addr:housenumber": "16A",
+    "addr:postcode": "2000",
+    "addr:street": "Hickson Road",
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "name": "IGA X-press",
+    "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-18:00",
+    "phone": "+61 2 9247 4122",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5622142452,
+  "lat": -33.9155365,
+  "lon": 151.2281128,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA (supermarkets)",
+    "check_date": "2024-08-01",
+    "level": "0",
+    "name": "IGA",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 09:00-22:00",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5678643972,
+  "lat": -33.9057605,
+  "lon": 151.2241860,
+  "tags": {
+    "addr:housenumber": "76",
+    "addr:street": "Anzac Parade",
+    "check_date": "2024-09-09",
+    "name": "Kensington Supermarket",
+    "opening_hours": "Mo-Fr 06:30-12:00; Sa, Su 07:00-23:30",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5678651018,
+  "lat": -33.9121992,
+  "lon": 151.2238904,
+  "tags": {
+    "brand": "Foodworks",
+    "brand:wikidata": "Q5465579",
+    "brand:wikipedia": "en:FoodWorks",
+    "check_date": "2025-08-14",
+    "name": "Foodworks",
+    "opening_hours": "Th-Tu 08:00-20:00; We 09:30-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5695596603,
+  "lat": -33.8746624,
+  "lon": 151.1645976,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "name": "IGA",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5796006229,
+  "lat": -33.9061256,
+  "lon": 151.2044827,
+  "tags": {
+    "addr:housenumber": "20-26",
+    "addr:postcode": "2017",
+    "addr:state": "NSW",
+    "addr:street": "Ebsworth Street",
+    "addr:suburb": "Zetland",
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "check_date:opening_hours": "2022-10-16",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Sa 06:00-23:00; Su 07:00-23:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "source": "local knowledge",
+    "website": "https://www.woolworths.com.au/Shop/StoreLocator/NSW-Zetland-1638"
+  }
+},
+{
+  "type": "node",
+  "id": 5889366259,
+  "lat": -33.8769720,
+  "lon": 151.2333163,
+  "tags": {
+    "addr:postcode": "2027",
+    "check_date": "2025-06-28",
+    "name": "Gourmet Life",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-17:00; Su 10:00-17:00",
+    "phone": "+61 2 9363 0775",
+    "shop": "supermarket",
+    "website": "https://gourmetlife.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 5908905685,
+  "lat": -33.8533828,
+  "lon": 151.1564228,
+  "tags": {
+    "name": "Harris Farm",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5996636414,
+  "lat": -33.8679267,
+  "lon": 151.2094139,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "check_date": "2024-10-04",
+    "level": "-2",
+    "name": "IGA Romeos",
+    "opening_hours": "Mo-Fr 06:00-20:00;Sa 07:00-17:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6051887994,
+  "lat": -33.9205709,
+  "lon": 151.2268476,
+  "tags": {
+    "addr:housenumber": "398",
+    "name": "Hidaka Asian Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6120697785,
+  "lat": -33.9231966,
+  "lon": 151.2275943,
+  "tags": {
+    "name": "Randwick Oriental",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6237520685,
+  "lat": -33.8799335,
+  "lon": 151.2036189,
+  "tags": {
+    "name": "Market city",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6261160466,
+  "lat": -33.8670373,
+  "lon": 151.2023687,
+  "tags": {
+    "check_date": "2024-08-20",
+    "name": "Kings Wharf Supermarket",
+    "opening_hours": "24/7",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6477383699,
+  "lat": -33.8668243,
+  "lon": 151.2052488,
+  "tags": {
+    "check_date": "2026-06-25",
+    "name": "Urban Grocer",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6698395874,
+  "lat": -33.9082211,
+  "lon": 151.2237856,
+  "tags": {
+    "check_date:opening_hours": "2022-11-17",
+    "description": "Asian supermarket",
+    "name": "Lucky Supermarket",
+    "opening_hours:signed": "no",
+    "phone": "+61 2 9697 2703",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6698566375,
+  "lat": -33.9240894,
+  "lon": 151.2276588,
+  "tags": {
+    "name": "NeedAStop",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6698566376,
+  "lat": -33.9241353,
+  "lon": 151.2276853,
+  "tags": {
+    "name": "Asian Food",
+    "phone": "+61 2 9313 6373",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6698595375,
+  "lat": -33.9220515,
+  "lon": 151.2267242,
+  "tags": {
+    "name": "Tokyo Super",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6981900799,
+  "lat": -33.8913611,
+  "lon": 151.1956808,
+  "tags": {
+    "name": "KK Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7015942366,
+  "lat": -33.8693268,
+  "lon": 151.2081628,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "check_date": "2024-08-16",
+    "level": "-1",
+    "name": "Woolworths Metro",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 08:00-20:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7140711186,
+  "lat": -33.9299232,
+  "lon": 151.1525331,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Magdalene Terrace",
+    "brand": "ALDI",
+    "brand:wikidata": "Q125054",
+    "brand:wikipedia": "en:Aldi",
+    "check_date": "2026-06-30",
+    "check_date:opening_hours": "2023-05-05",
+    "full_name": "ALDI Wolli Creek",
+    "name": "ALDI",
+    "opening_hours": "Mo-We,Fr-Su 08:30-20:00; Th 08:30-21:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/wolli-creek/4-magdalene-terrace",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7396321755,
+  "lat": -33.9137911,
+  "lon": 151.1697813,
+  "tags": {
+    "addr:state": "NSW",
+    "addr:street": "Unwins Bridge Road",
+    "level": "0",
+    "name": "Presti's Grocer",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-20:00; Su 08:00-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7456894612,
+  "lat": -33.8856921,
+  "lon": 151.1583627,
+  "tags": {
+    "addr:housenumber": "51-57",
+    "addr:street": "Norton Street",
+    "addr:unit": "B1",
+    "check_date:opening_hours": "2026-07-05",
+    "level": "-1",
+    "name": "Harris Farm",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "phone": "+61 2 9572 7511",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7599111586,
+  "lat": -33.8811911,
+  "lon": 151.2035090,
+  "tags": {
+    "addr:postcode": "2000",
+    "check_date": "2026-08-04",
+    "level": "1",
+    "name": "New Yen Yen Supermarket",
+    "name:zh": "新人人超市",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7607930885,
+  "lat": -33.8743762,
+  "lon": 151.2227500,
+  "tags": {
+    "addr:housenumber": "111-139",
+    "addr:street": "Darlinghurst Road",
+    "air_conditioning": "yes",
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "check_date": "2026-03-17",
+    "level": "1",
+    "name": "Woolworths Metro",
+    "opening_hours": "07:00-22:00",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "phone": "+61 2 8565 9381",
+    "shop": "supermarket",
+    "website": "https://www.woolworths.com.au/shop/storelocator/nsw-potts-point-1270"
+  }
+},
+{
+  "type": "node",
+  "id": 7689988145,
+  "lat": -33.8575103,
+  "lon": 151.1933303,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:postcode": "2041",
+    "addr:state": "NSW",
+    "addr:street": "Darling Street",
+    "addr:suburb": "Balmain East",
+    "air_conditioning": "yes",
+    "name": "Balmain East Liquor & Deli",
+    "opening_hours": "Mo-Su 07:00-19:00; Sa 08:00-19:00; Su 07:00-18:00",
+    "phone": "+61 2 9555 1426",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7790251617,
+  "lat": -33.9174552,
+  "lon": 151.1984281,
+  "tags": {
+    "addr:housenumber": "24A",
+    "addr:postcode": "2015",
+    "addr:state": "NSW",
+    "addr:street": "Ralph Street",
+    "addr:suburb": "Alexandria",
+    "name": "Simon Johnson",
+    "opening_hours": "Mo-Sa 09:00-17:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7791593111,
+  "lat": -33.8773141,
+  "lon": 151.1851804,
+  "tags": {
+    "brand": "Friendly Grocer",
+    "brand:wikipedia": "en;Friendly Grocer",
+    "name": "Friendly Grocer",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7844967578,
+  "lat": -33.8927413,
+  "lon": 151.2056060,
+  "tags": {
+    "description": "Fresh, seasonal fruit and vegetables",
+    "name": "R & R Providores",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 7944284806,
+  "lat": -33.9243444,
+  "lon": 151.1885189,
+  "tags": {
+    "addr:housenumber": "220",
+    "addr:postcode": "2020",
+    "addr:state": "NSW",
+    "addr:street": "Coward Street",
+    "addr:suburb": "Mascot",
+    "name": "Brenda's Supermarket",
+    "operator": "Brenda",
+    "phone": "+61 456 316 988",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8122342118,
+  "lat": -33.9290997,
+  "lon": 151.1536498,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:postcode": "2205",
+    "addr:street": "Discovery Point Place",
+    "check_date": "2026-01-08",
+    "name": "Orange Supermarket (Asian)",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "shop": "supermarket",
+    "website": "https://orangego.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 8254723626,
+  "lat": -33.9018064,
+  "lon": 151.2098673,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:postcode": "2017",
+    "addr:state": "NSW",
+    "addr:street": "Archibald Avenue",
+    "addr:suburb": "Waterloo",
+    "addr:unit": "15",
+    "check_date": "2026-03-11",
+    "check_date:opening_hours": "2022-10-15",
+    "level": "0",
+    "name": "QE Foodstore Waterloo",
+    "opening_hours": "Mo-Su 07:00-21:30",
+    "operator": "QE Foodstores",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+61 2 8376 8627",
+    "shop": "supermarket",
+    "website": "https://www.qefoodstores.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8288988082,
+  "lat": -33.9027182,
+  "lon": 151.2074310,
+  "tags": {
+    "addr:country": "AU",
+    "addr:housenumber": "965",
+    "addr:postcode": "2017",
+    "addr:street": "Bourke Street",
+    "addr:unit": "Shop 2",
+    "name": "Miracle Supermarket",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "phone": "+61 2 8960 2113",
+    "shop": "supermarket",
+    "website": "https://miraclesupermarkets.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8288988088,
+  "lat": -33.9056100,
+  "lon": 151.2030644,
+  "tags": {
+    "addr:country": "AU",
+    "addr:housenumber": "301",
+    "addr:postcode": "2017",
+    "addr:street": "Botany Road",
+    "addr:suburb": "Zetland",
+    "addr:unit": "Shop R007",
+    "name": "Miracle Supermarket",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-20:00",
+    "phone": "+61 2 8060 4974",
+    "shop": "supermarket",
+    "website": "https://miraclesupermarkets.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8288988117,
+  "lat": -33.9025056,
+  "lon": 151.1976483,
+  "tags": {
+    "addr:country": "AU",
+    "addr:housenumber": "100",
+    "addr:postcode": "2015",
+    "addr:street": "McEvoy Street",
+    "addr:suburb": "Alexandria",
+    "check_date": "2024-08-03",
+    "contact:phone": "+61 2 8310 1800",
+    "name": "Honest to Goodness",
+    "opening_hours": "Mo-Su 09:00-16:00; We-Sa 09:00-18:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.goodness.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 8329454371,
+  "lat": -33.9014042,
+  "lon": 151.2128250,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Gadigal Avenue",
+    "addr:unit": "Shop 304/305",
+    "name": "Ustore",
+    "opening_hours": "Mo-Su 11:00-24:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8334234127,
+  "lat": -33.9007530,
+  "lon": 151.2114517,
+  "tags": {
+    "name": "Waterloo Asian Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8363862456,
+  "lat": -33.8889359,
+  "lon": 151.2352677,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:postcode": "2025",
+    "addr:state": "NSW",
+    "addr:street": "Queen Street",
+    "addr:suburb": "Woollahra",
+    "name": "Simon Johnson Providore",
+    "shop": "supermarket",
+    "website": "https://www.simonjohnson.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8369514681,
+  "lat": -33.8678081,
+  "lon": 151.2091566,
+  "tags": {
+    "check_date": "2024-05-22",
+    "name": "Romeo's Food Group",
+    "operator": "Romeo's Food Group",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8369514682,
+  "lat": -33.8870186,
+  "lon": 151.2291805,
+  "tags": {
+    "name": "Romeo's Food Group",
+    "operator": "Romeo's Food Group",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8369572839,
+  "lat": -33.8777121,
+  "lon": 151.2129608,
+  "tags": {
+    "name": "Romeo's Food Group",
+    "operator": "Romeo's Food Group",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8383496091,
+  "lat": -33.8990653,
+  "lon": 151.2129499,
+  "tags": {
+    "check_date": "2023-11-10",
+    "name": "Shangke Asian Supermarket",
+    "opening_date": "2020-09-29",
+    "opening_hours": "Mo-Su 09:00-21:30",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8393390971,
+  "lat": -33.8996460,
+  "lon": 151.2121712,
+  "tags": {
+    "check_date": "2025-04-26",
+    "name": "Hanho Asian Grocery",
+    "opening_hours": "Mo-Su 09:30-21:00",
+    "phone": "+61 2 8018 7738",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 8745976197,
+  "lat": -33.8704197,
+  "lon": 151.2065633,
+  "tags": {
+    "addr:housenumber": "68",
+    "addr:postcode": "2000",
+    "addr:state": "NSW",
+    "addr:street": "York Street",
+    "addr:suburb": "Sydney",
+    "air_conditioning": "yes",
+    "brand": "Coles Local",
+    "brand:wikidata": "Q104850818",
+    "check_date": "2025-02-20",
+    "currency:AUD": "yes",
+    "level": "1",
+    "name": "Coles Local",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 09:00-19:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "organic": "yes",
+    "payment:american_express": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:electronic_purses": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "shop": "supermarket",
+    "stroller": "yes",
+    "website": "https://www.coles.com.au",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9195271975,
+  "lat": -33.8944115,
+  "lon": 151.1959306,
+  "tags": {
+    "name": "Romeo's Food Hall",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9218427007,
+  "lat": -33.9070258,
+  "lon": 151.2088065,
+  "tags": {
+    "check_date": "2025-08",
+    "name": "Victoria Park Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9329081674,
+  "lat": -33.9041623,
+  "lon": 151.1899282,
+  "tags": {
+    "brand": "Woolworths",
+    "brand:wikidata": "Q3249145",
+    "brand:wikipedia": "en:Woolworths Supermarkets",
+    "name": "Woolworths",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9567298171,
+  "lat": -33.9220575,
+  "lon": 151.2001109,
+  "tags": {
+    "name": "M.F.C Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9567314276,
+  "lat": -33.9137619,
+  "lon": 151.2069416,
+  "tags": {
+    "name": "Family Asian Supermarket",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9610209441,
+  "lat": -33.8561794,
+  "lon": 151.1626686,
+  "tags": {
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "brand:wikipedia": "en:Coles Supermarkets",
+    "name": "Coles",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9610209442,
+  "lat": -33.8558213,
+  "lon": 151.1634046,
+  "tags": {
+    "addr:housenumber": "19 A",
+    "addr:street": "Roseby Street",
+    "brand": "ALDI",
+    "brand:wikidata": "Q125054",
+    "brand:wikipedia": "en:Aldi",
+    "check_date:opening_hours": "2023-05-05",
+    "full_name": "ALDI Drummoyne",
+    "name": "ALDI",
+    "opening_hours": "Mo-We,Fr-Su 08:30-20:00; Th 08:30-21:00",
+    "shop": "supermarket",
+    "website": "https://store.aldi.com.au/nsw/drummoyne/19-a-roseby-street",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9647272828,
+  "lat": -33.8685486,
+  "lon": 151.2074143,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "name": "Locali by Romeo's IGA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9647290242,
+  "lat": -33.8657874,
+  "lon": 151.2069208,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "brand:wikipedia": "en:IGA Supermarkets Australia)",
+    "check_date": "2024-05-21",
+    "level": "-2",
+    "name": "Locali's by Romeo IGA",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-18:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9776423614,
+  "lat": -33.9083246,
+  "lon": 151.1718179,
+  "tags": {
+    "level": "0",
+    "name": "Panetta Mercado",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 9828663372,
+  "lat": -33.9080820,
+  "lon": 151.1720376,
+  "tags": {
+    "addr:housenumber": "13-55",
+    "addr:street": "Edinburgh Road",
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "level": "1",
+    "name": "Coles",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10125608625,
+  "lat": -33.9242586,
+  "lon": 151.2119291,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "name": "Woolworths Metro",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11664075071,
+  "lat": -33.9118402,
+  "lon": 151.1595806,
+  "tags": {
+    "name": "Shun Hing Long Grocery",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11749863708,
+  "lat": -33.8920493,
+  "lon": 151.1998321,
+  "tags": {
+    "brand": "Woolworths Metro",
+    "brand:wikidata": "Q111772555",
+    "name": "Woolworths Metro",
+    "operator": "Woolworths Group",
+    "operator:wikidata": "Q607272",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11749863709,
+  "lat": -33.8924002,
+  "lon": 151.1996512,
+  "tags": {
+    "brand": "Foodworks",
+    "brand:wikidata": "Q5465579",
+    "name": "Foodworks",
+    "opening_hours": "Mo-Fr 06:30-22:00; Sa 07:00-22:00; Su 07:00-21:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 11865408769,
+  "lat": -33.8852330,
+  "lon": 151.2006398,
+  "tags": {
+    "check_date": "2025-09",
+    "name": "Amazing Asian Market",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 12163032635,
+  "lat": -33.8919417,
+  "lon": 151.2120328,
+  "tags": {
+    "brand": "Coles",
+    "brand:wikidata": "Q1108172",
+    "level": "-1",
+    "name": "Coles",
+    "operator": "Coles Group",
+    "operator:wikidata": "Q131937428",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 12163032636,
+  "lat": -33.8917353,
+  "lon": 151.2120732,
+  "tags": {
+    "level": "-1",
+    "name": "Harris Farm",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 12163251893,
+  "lat": -33.8866732,
+  "lon": 151.2138781,
+  "tags": {
+    "name": "Maloney's",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 12177991177,
+  "lat": -33.8941577,
+  "lon": 151.1961256,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "name": "IGA",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13132475601,
+  "lat": -33.8564631,
+  "lon": 151.1784491,
+  "tags": {
+    "name": "QE Foodstores",
+    "opening_hours": "Mo-Su 07:00-21:30",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13288339730,
+  "lat": -33.8806948,
+  "lon": 151.1878437,
+  "tags": {
+    "addr:housenumber": "183",
+    "addr:street": "Glebe Point Road",
+    "brand": "The Source Bulk Foods",
+    "brand:wikidata": "Q113771168",
+    "name": "The Source Bulk Foods",
+    "opening_hours": "Mo-Sa 09:00-17:30; Su 11:00-15:00",
+    "phone": "+61 2 8386 0969",
+    "shop": "supermarket",
+    "website": "https://glebe.thesourcebulkfoods.com.au",
+    "zero_waste": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 13305455401,
+  "lat": -33.8984814,
+  "lon": 151.1758419,
+  "tags": {
+    "addr:housenumber": "61",
+    "addr:postcode": "2042",
+    "addr:street": "Enmore Road",
+    "email": "info@greensfood.com.au",
+    "name": "Greens Supermarket",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+61 431 444 847",
+    "shop": "supermarket",
+    "website": "https://greenssupermarket.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 13387742232,
+  "lat": -33.9090162,
+  "lon": 151.1635363,
+  "tags": {
+    "addr:housenumber": "186",
+    "addr:street": "Victoria Road",
+    "brand": "Harris Market Farms",
+    "brand:wikidata": "Q5664888",
+    "name": "Harris Farm Markets",
+    "phone": "+61 2 9394 3245",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13429927510,
+  "lat": -33.8829727,
+  "lon": 151.1748023,
+  "tags": {
+    "addr:housenumber": "6-8",
+    "addr:street": "Booth Street",
+    "brand": "Supabarn",
+    "brand:wikidata": "Q7641883",
+    "name": "Supabarn",
+    "official_name": "Supabarn Supermarkets",
+    "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-21:00; PH 07:00-21:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+61 2 9571 5675",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13518378480,
+  "lat": -33.8825196,
+  "lon": 151.1567588,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "name": "Leichhardt IGA",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13650877726,
+  "lat": -33.9057378,
+  "lon": 151.2129396,
+  "tags": {
+    "check_date": "2026-03-16",
+    "level": "0",
+    "name": "Taste Growers Market",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13874806423,
+  "lat": -33.8626057,
+  "lon": 151.2116907,
+  "tags": {
+    "brand": "IGA",
+    "brand:wikidata": "Q5970945",
+    "name": "IGA Quay Quarter",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 14017217960,
+  "lat": -33.8758821,
+  "lon": 151.2059639,
+  "tags": {
+    "level": "-1",
+    "name": "K-Mall-09",
+    "origin": "korea",
+    "shop": "supermarket",
+    "website": "https://kmall09.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 14025361136,
+  "lat": -33.8859374,
+  "lon": 151.1584372,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Norton Street",
+    "addr:unit": "G12",
+    "cuisine": "asian",
+    "level": "0",
+    "name": "AM Mart",
+    "opening_hours": "Mo-Fr 08:30-19:30; Sa,Su 08:30-19:00",
+    "phone": "+61 425 319 898",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 14058413873,
+  "lat": -33.9080226,
+  "lon": 151.1716622,
+  "tags": {
+    "cuisine": "asian",
+    "level": "1",
+    "name": "Miracle Supermarket",
+    "shop": "supermarket"
+  }
+}
+
+  ]
+}

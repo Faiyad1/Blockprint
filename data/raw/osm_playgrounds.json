@@ -1,0 +1,958 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-29T06:11:57Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 18323882,
+  "lat": -33.8904379,
+  "lon": 151.2342668,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 20958943,
+  "lat": -33.8568669,
+  "lon": 151.2016882,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 266155213,
+  "lat": -33.8949437,
+  "lon": 151.2040766,
+  "tags": {
+    "addr:housenumber": "36",
+    "addr:postcode": "2016",
+    "addr:state": "NSW",
+    "addr:street": "Douglas Street",
+    "addr:suburb": "Redfern",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 298557966,
+  "lat": -33.8991037,
+  "lon": 151.1463618,
+  "tags": {
+    "access": "yes",
+    "created_by": "Potlatch 0.10b",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 614585946,
+  "lat": -33.9111204,
+  "lon": 151.2007926,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 863014055,
+  "lat": -33.9254371,
+  "lon": 151.1980524,
+  "tags": {
+    "leisure": "playground",
+    "source": "nearmap"
+  }
+},
+{
+  "type": "node",
+  "id": 1305702297,
+  "lat": -33.8585802,
+  "lon": 151.1835491,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1577806585,
+  "lat": -33.8918146,
+  "lon": 151.1947039,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1613911658,
+  "lat": -33.8689627,
+  "lon": 151.1933085,
+  "tags": {
+    "access": "customers",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1648167914,
+  "lat": -33.8573039,
+  "lon": 151.2055642,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1734877390,
+  "lat": -33.8970931,
+  "lon": 151.1569962,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1734890516,
+  "lat": -33.9009290,
+  "lon": 151.1661934,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1738806346,
+  "lat": -33.8998364,
+  "lon": 151.1910715,
+  "tags": {
+    "leisure": "playground",
+    "operator": "City of Sydney",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1738807555,
+  "lat": -33.8991351,
+  "lon": 151.1943327,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1739963359,
+  "lat": -33.8671168,
+  "lon": 151.1678708,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "name": "Rozelle Common"
+  }
+},
+{
+  "type": "node",
+  "id": 1800132369,
+  "lat": -33.9091317,
+  "lon": 151.2140787,
+  "tags": {
+    "access": "yes",
+    "attribution:name": "ploppy",
+    "leisure": "playground",
+    "name": "Les Bridge Playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1821112609,
+  "lat": -33.8878405,
+  "lon": 151.1996043,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1850721687,
+  "lat": -33.8957051,
+  "lon": 151.1590069,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1852766770,
+  "lat": -33.8951198,
+  "lon": 151.1622774,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1853706567,
+  "lat": -33.8891531,
+  "lon": 151.2117868,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1854216727,
+  "lat": -33.8918956,
+  "lon": 151.1557077,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1854217931,
+  "lat": -33.8914121,
+  "lon": 151.1658811,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1855351902,
+  "lat": -33.8931927,
+  "lon": 151.2113884,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1899906756,
+  "lat": -33.8830615,
+  "lon": 151.1650435,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 1903600217,
+  "lat": -33.8861702,
+  "lon": 151.2157107,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2079360066,
+  "lat": -33.8763960,
+  "lon": 151.1862779,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2138828877,
+  "lat": -33.8910063,
+  "lon": 151.1741900,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2328787881,
+  "lat": -33.9258922,
+  "lon": 151.1916196,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2328787887,
+  "lat": -33.9259243,
+  "lon": 151.1937373,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2352273898,
+  "lat": -33.9081091,
+  "lon": 151.2197981,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2352273903,
+  "lat": -33.9162739,
+  "lon": 151.2102494,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2352276952,
+  "lat": -33.9197305,
+  "lon": 151.2108637,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2727806493,
+  "lat": -33.9219950,
+  "lon": 151.1442562,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2746813713,
+  "lat": -33.9137421,
+  "lon": 151.1556529,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 2838786301,
+  "lat": -33.9147593,
+  "lon": 151.2365316,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2874264597,
+  "lat": -33.8656043,
+  "lon": 151.1937159,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "source": "survey",
+    "source:location": "gps"
+  }
+},
+{
+  "type": "node",
+  "id": 2990241235,
+  "lat": -33.9041817,
+  "lon": 151.2397364,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3008464499,
+  "lat": -33.8954846,
+  "lon": 151.1985243,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 3083726740,
+  "lat": -33.9281478,
+  "lon": 151.2264102,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3083726741,
+  "lat": -33.9279603,
+  "lon": 151.2259457,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3086468234,
+  "lat": -33.8691120,
+  "lon": 151.1712338,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 3211894061,
+  "lat": -33.8941704,
+  "lon": 151.1744434,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3318102574,
+  "lat": -33.9132771,
+  "lon": 151.1510036,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 3623047696,
+  "lat": -33.8786257,
+  "lon": 151.2001439,
+  "tags": {
+    "leisure": "playground",
+    "source": "survey",
+    "source:location": "digitalglobe"
+  }
+},
+{
+  "type": "node",
+  "id": 3918034857,
+  "lat": -33.8754788,
+  "lon": 151.1959085,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 3925022471,
+  "lat": -33.8792922,
+  "lon": 151.1926282,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 4108719440,
+  "lat": -33.9024428,
+  "lon": 151.2138833,
+  "tags": {
+    "leisure": "playground",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4112641174,
+  "lat": -33.8870776,
+  "lon": 151.2254693,
+  "tags": {
+    "leisure": "playground",
+    "name": "Oatley Road Playground",
+    "source": "NSW LPI Base Map"
+  }
+},
+{
+  "type": "node",
+  "id": 4228107922,
+  "lat": -33.9140775,
+  "lon": 151.2003892,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 4505586189,
+  "lat": -33.9185860,
+  "lon": 151.2045760,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 4679562086,
+  "lat": -33.8916221,
+  "lon": 151.1693243,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 4679562087,
+  "lat": -33.8888416,
+  "lon": 151.1576909,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 4733121147,
+  "lat": -33.9164436,
+  "lon": 151.1678546,
+  "tags": {
+    "leisure": "playground",
+    "source": "LPI Imagery Mar 2017"
+  }
+},
+{
+  "type": "node",
+  "id": 5118549156,
+  "lat": -33.8908204,
+  "lon": 151.2344599,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 5408978609,
+  "lat": -33.8782639,
+  "lon": 151.1571670,
+  "tags": {
+    "access": "yes",
+    "covered": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 5709181764,
+  "lat": -33.8566402,
+  "lon": 151.1923124,
+  "tags": {
+    "covered": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 5754922211,
+  "lat": -33.8788350,
+  "lon": 151.2232229,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 5756213965,
+  "lat": -33.8772160,
+  "lon": 151.2229410,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6293018839,
+  "lat": -33.8583621,
+  "lon": 151.1746881,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6293018840,
+  "lat": -33.8621641,
+  "lon": 151.1755785,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6369840474,
+  "lat": -33.8857530,
+  "lon": 151.2299113,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6696440487,
+  "lat": -33.9079035,
+  "lon": 151.2249221,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6698722752,
+  "lat": -33.8538371,
+  "lon": 151.1724418,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 6698774968,
+  "lat": -33.8511547,
+  "lon": 151.1816298,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 7475898823,
+  "lat": -33.8677731,
+  "lon": 151.1526009,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 7615756238,
+  "lat": -33.9203420,
+  "lon": 151.1859040,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8174666199,
+  "lat": -33.9158378,
+  "lon": 151.1490891,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8209281813,
+  "lat": -33.8826583,
+  "lon": 151.1540125,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8230732055,
+  "lat": -33.9076568,
+  "lon": 151.1561946,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8341141732,
+  "lat": -33.8732588,
+  "lon": 151.1484520,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8421860105,
+  "lat": -33.8571854,
+  "lon": 151.1587895,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8735512277,
+  "lat": -33.8932919,
+  "lon": 151.1426809,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8828992423,
+  "lat": -33.8598831,
+  "lon": 151.1863867,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 8829483752,
+  "lat": -33.9045594,
+  "lon": 151.1750186,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 9363362247,
+  "lat": -33.9220733,
+  "lon": 151.2335598,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 9468303314,
+  "lat": -33.8920992,
+  "lon": 151.1555927,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 9647017163,
+  "lat": -33.8812127,
+  "lon": 151.1976061,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 10002006491,
+  "lat": -33.8585541,
+  "lon": 151.1523244,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11126569043,
+  "lat": -33.8943640,
+  "lon": 151.2275544,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11126669449,
+  "lat": -33.8932879,
+  "lon": 151.2260508,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11126669450,
+  "lat": -33.8934785,
+  "lon": 151.2260505,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11306521777,
+  "lat": -33.9236229,
+  "lon": 151.2080189,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11337022933,
+  "lat": -33.9047373,
+  "lon": 151.2098369,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11337169546,
+  "lat": -33.8931624,
+  "lon": 151.2148325,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11340493079,
+  "lat": -33.8781162,
+  "lon": 151.2161616,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11345413433,
+  "lat": -33.8888924,
+  "lon": 151.1969239,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11580507621,
+  "lat": -33.8666597,
+  "lon": 151.1717606,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 11777715598,
+  "lat": -33.8972234,
+  "lon": 151.1957620,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground",
+    "name": "South Eveleigh Playground",
+    "website": "https://www.cityofsydney.nsw.gov.au/playgrounds/south-eveleigh-playground"
+  }
+},
+{
+  "type": "node",
+  "id": 12065718976,
+  "lat": -33.9271333,
+  "lon": 151.1572003,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13018302063,
+  "lat": -33.9054479,
+  "lon": 151.2130980,
+  "tags": {
+    "check_date": "2025-07-23",
+    "leisure": "playground",
+    "max_age": "5",
+    "min_age": "2",
+    "panoramax": "4986bc2a-accb-4290-b254-a1136cc294ad",
+    "surface": "rubber",
+    "website": "https://www.eastvillage.com.au/experience/events/kids-play"
+  }
+},
+{
+  "type": "node",
+  "id": 13155093095,
+  "lat": -33.9224549,
+  "lon": 151.1852733,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13574769936,
+  "lat": -33.8552001,
+  "lon": 151.1817554,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13574769937,
+  "lat": -33.8551133,
+  "lon": 151.1819242,
+  "tags": {
+    "leisure": "playground"
+  }
+},
+{
+  "type": "node",
+  "id": 13635617995,
+  "lat": -33.8884739,
+  "lon": 151.1766862,
+  "tags": {
+    "access": "customers",
+    "check_date": "2026-03-11",
+    "fee": "no",
+    "leisure": "playground",
+    "operator": "Camperdown Commons",
+    "panoramax": "64bdcb60-0286-4858-8f11-df01be1fe6c6",
+    "website": "https://camperdown.commons.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 13955078923,
+  "lat": -33.8912550,
+  "lon": 151.1447427,
+  "tags": {
+    "access": "yes",
+    "leisure": "playground"
+  }
+}
+
+  ]
+}

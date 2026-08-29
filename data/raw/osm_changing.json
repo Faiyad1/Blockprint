@@ -1,0 +1,1766 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-29T06:11:57Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 18323772,
+  "lat": -33.8946369,
+  "lon": 151.2333629,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1499194256,
+  "lat": -33.8744874,
+  "lon": 151.2222308,
+  "tags": {
+    "changing_table": "yes",
+    "fare_gates": "yes",
+    "location": "underground",
+    "name": "Kings Cross",
+    "network": "Sydney Trains",
+    "network:wikidata": "Q7660181",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "KGX",
+    "ref": "201110",
+    "survey:date": "2022-02-08",
+    "toilets": "yes",
+    "toilets:access": "customers",
+    "toilets:unisex": "yes",
+    "toilets:wheelchair": "yes",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q1851882",
+    "wikipedia": "en:Kings Cross railway station, Sydney"
+  }
+},
+{
+  "type": "node",
+  "id": 1613914082,
+  "lat": -33.8658057,
+  "lon": 151.1919269,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "check_date": "2025-02-09",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Pirrama Park Public Toilet",
+    "opening_hours": "sunrise-sunset",
+    "operator": "City Of Sydney",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1886265379,
+  "lat": -33.8659903,
+  "lon": 151.2058096,
+  "tags": {
+    "changing_table": "yes",
+    "fare_gates": "yes",
+    "location": "underground",
+    "name": "Wynyard",
+    "network": "Sydney Trains",
+    "network:wikidata": "Q7660181",
+    "platforms": "6",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:ref": "WYN",
+    "ref": "200080",
+    "toilets:access": "yes",
+    "toilets:wheelchair": "yes",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q8040272"
+  }
+},
+{
+  "type": "node",
+  "id": 1989323761,
+  "lat": -33.8521294,
+  "lon": 151.1881322,
+  "tags": {
+    "addr:country": "AU",
+    "addr:housenumber": "1",
+    "addr:postcode": "2041",
+    "addr:state": "NSW",
+    "addr:street": "Wharf Road",
+    "addr:suburb": "Birchgrove",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:fee": "no",
+    "fee": "no",
+    "lit": "yes",
+    "name": "Public Toilet Ballast Point Park - Wharf Road",
+    "opening_hours": "sunrise-sunset",
+    "operator": "Inner West Council",
+    "operator:email": "council@innerwest.nsw.gov.au",
+    "operator:phone": "+61 2 9392 5000",
+    "operator:type": "public",
+    "operator:website": "https://www.innerwest.nsw.gov.au",
+    "operator:wikidata": "Q56477648",
+    "unisex": "yes",
+    "website": "https://www.toiletmap.gov.au/46579",
+    "wheelchair": "designated"
+  }
+},
+{
+  "type": "node",
+  "id": 2496114836,
+  "lat": -33.8546400,
+  "lon": 151.1851680,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "yes",
+    "female": "yes",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2524742470,
+  "lat": -33.8683143,
+  "lon": 151.2016924,
+  "tags": {
+    "addr:housename": "King Street Wharf Building",
+    "addr:housenumber": "42-48",
+    "addr:postcode": "2000",
+    "addr:street": "Lime Street",
+    "addr:suburb": "Sydney",
+    "amenity": "restaurant",
+    "changing_table": "yes",
+    "changing_table:location": "yes",
+    "check_date": "2024-08-07",
+    "cuisine": "italian",
+    "highchair": "yes",
+    "internet_access": "no",
+    "name": "Casa di Nico",
+    "phone": "+61 2 9279 4115",
+    "toilets:wheelchair": "yes",
+    "website": "https://lovecasa.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3623073649,
+  "lat": -33.8742505,
+  "lon": 151.2067766,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "location": "underground",
+    "operator": "Sydney Trains",
+    "operator:wikidata": "Q7660181",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3700702337,
+  "lat": -33.9286808,
+  "lon": 151.1541672,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "description": "On the right after entering the train station gates.",
+    "fee": "no",
+    "female": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4101244648,
+  "lat": -33.8612752,
+  "lon": 151.2097851,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "check_date": "2025-08-12",
+    "fee": "no",
+    "source": "survey",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242649407,
+  "lat": -33.8596422,
+  "lon": 151.2092491,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "level": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 4242649413,
+  "lat": -33.8769207,
+  "lon": 151.2026278,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "unisex_toilet;wheelchair_toilet",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242649418,
+  "lat": -33.8670181,
+  "lon": 151.2129036,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "unisex_toilet;wheelchair_toilet",
+    "fee": "no",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242649696,
+  "lat": -33.8589013,
+  "lon": 151.2083897,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "unisex_toilet;wheelchair_toilet",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242649698,
+  "lat": -33.8662850,
+  "lon": 151.2060191,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "-2",
+    "operator": "JCDecaux",
+    "operator:wikidata": "Q74877",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242650063,
+  "lat": -33.8603108,
+  "lon": 151.2081488,
+  "tags": {
+    "access": "yes",
+    "addr:country": "AU",
+    "addr:postcode": "2000",
+    "addr:state": "NSW",
+    "addr:street": "Nurses Walk",
+    "addr:suburb": "The Rocks",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:adult": "no",
+    "changing_table:count": "1",
+    "changing_table:fee": "no",
+    "changing_table:location": "unisex_toilet;wheelchair_toilet",
+    "child": "no",
+    "contact:website": "https://www.toiletmap.gov.au/63611",
+    "drinking_water": "no",
+    "fee": "no",
+    "female": "no",
+    "gender_segregated": "no",
+    "handwashing:creme": "no",
+    "handwashing:hand_cleaning_paste": "no",
+    "handwashing:hand_disinfection": "no",
+    "handwashing:soap": "yes",
+    "hot_water": "no",
+    "lit": "yes",
+    "male": "no",
+    "name": "Public Toilet Nurses Walk, The Rocks - Accessible",
+    "opening_hours": "24/7",
+    "shower": "no",
+    "supervised": "no",
+    "toilets": "unisex",
+    "toilets:handwashing": "yes",
+    "toilets:menstrual_products": "no",
+    "toilets:ostomy": "no",
+    "toilets:paper_supplied": "yes",
+    "toilets:position": "seated",
+    "unisex": "yes",
+    "waste": "sharps",
+    "website": "https://www.toiletmap.gov.au/63611",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4242650695,
+  "lat": -33.8588875,
+  "lon": 151.2130612,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "wheelchair_toilet",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4484797189,
+  "lat": -33.8813015,
+  "lon": 151.2025374,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "dedicated_room",
+    "check_date": "2026-08-08",
+    "description": "Disabled toilets locked via combination keypad - may need shop owners there to give out combination to allow access",
+    "fee": "no",
+    "female": "yes",
+    "handwashing:soap": "yes",
+    "hot_water": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:hands_drying": "electric_hand_dryer",
+    "toilets:handwashing": "yes",
+    "toilets:paper_supplied": "yes",
+    "toilets:position": "seated;urinal",
+    "waste": "sharps",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4505555091,
+  "lat": -33.9186740,
+  "lon": 151.2039909,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "operator": "City of Sydney",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5116414883,
+  "lat": -33.8869687,
+  "lon": 151.2062990,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "waste": "sharps",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5125995557,
+  "lat": -33.8759632,
+  "lon": 151.1785192,
+  "tags": {
+    "access": "yes",
+    "addr:country": "AU",
+    "addr:housenumber": "1",
+    "addr:postcode": "2037",
+    "addr:state": "NSW",
+    "addr:street": "Dalgal Way",
+    "addr:suburb": "Forest Lodge",
+    "amenity": "toilets",
+    "baby_feeding": "room",
+    "changing_table": "yes",
+    "changing_table:fee": "no",
+    "contact:website": "https://www.toiletmap.gov.au/54947",
+    "drinking_water": "no",
+    "fee": "no",
+    "female": "yes",
+    "gender_segregated": "yes",
+    "handwashing:creme": "no",
+    "handwashing:hand_cleaning_paste": "no",
+    "handwashing:hand_disinfection": "no",
+    "handwashing:soap": "yes",
+    "hot_water": "no",
+    "indoor": "yes",
+    "level": "1",
+    "lit": "yes",
+    "male": "yes",
+    "name": "Public Toilet Tramsheds, Forest Lodge",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "shower": "no",
+    "supervised": "no",
+    "toilets": "yes",
+    "toilets:access": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:menstrual_products": "no",
+    "toilets:ostomy": "no",
+    "toilets:paper_supplied": "yes",
+    "toilets:position": "seated;urinal",
+    "toilets:wheelchair": "limited",
+    "unisex": "yes",
+    "website": "https://www.toiletmap.gov.au/54947",
+    "wheelchair": "limited",
+    "wheelchair:description": "Right hand transfer accessible facilities."
+  }
+},
+{
+  "type": "node",
+  "id": 5813784901,
+  "lat": -33.8834067,
+  "lon": 151.1917160,
+  "tags": {
+    "amenity": "cafe",
+    "changing_table": "yes",
+    "check_date": "2025-02-09",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "dog": "yes",
+    "indoor_seating": "yes",
+    "name": "Dirty Red",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "takeaway": "yes",
+    "toilets:wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6255158085,
+  "lat": -33.8685365,
+  "lon": 151.2173535,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "operator": "Art Gallery of New South Wales",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6738224985,
+  "lat": -33.8916264,
+  "lon": 151.1986326,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "check_date": "2026-02-18",
+    "fee": "no",
+    "level": "0",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6884728403,
+  "lat": -33.8744705,
+  "lon": 151.2020417,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7030232362,
+  "lat": -33.8779098,
+  "lon": 151.2021833,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Little Pier Street",
+    "air_conditioning": "yes",
+    "amenity": "library",
+    "changing_table": "yes",
+    "changing_table:location": "dedicated_room",
+    "check_date:opening_hours": "2025-12",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "1",
+    "name": "Darling Square Library",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa-Su 10:00-16:00",
+    "operator": "City of Sydney",
+    "operator:type": "public",
+    "outdoor_seating": "yes",
+    "phone": "+61 2 8019 6477",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.cityofsydney.nsw.gov.au/explore/libraries/locations/darling-square",
+    "wheelchair": "yes",
+    "wikidata": "Q87415680"
+  }
+},
+{
+  "type": "node",
+  "id": 7030366485,
+  "lat": -33.8778960,
+  "lon": 151.2024873,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "survey:date": "2022-02-05",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7456894614,
+  "lat": -33.8859510,
+  "lon": 151.1579642,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7621616912,
+  "lat": -33.8713357,
+  "lon": 151.1847672,
+  "tags": {
+    "access": "yes",
+    "addr:country": "AU",
+    "addr:housenumber": "55",
+    "addr:postcode": "2037",
+    "addr:state": "NSW",
+    "addr:street": "Leichhardt Street",
+    "addr:suburb": "Glebe",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:count": "1",
+    "changing_table:fee": "no",
+    "contact:website": "https://www.toiletmap.gov.au/54427",
+    "fee": "no",
+    "lit": "yes",
+    "name": "Public Toilet Bellevue Cottage, Glebe",
+    "opening_hours": "sunrise-sunset",
+    "operator": "City of Sydney Council",
+    "operator:email": "council@cityofsydney.nsw.gov.au",
+    "operator:phone:AU": "1300 651 301",
+    "operator:type": "public",
+    "operator:website": "https://www.sydney.nsw.gov.au",
+    "operator:wikidata": "Q56477532",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated",
+    "toilets:wheelchair": "yes",
+    "unisex": "yes",
+    "website": "https://www.toiletmap.gov.au/54427",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8348480801,
+  "lat": -33.9139238,
+  "lon": 151.1538231,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "level": "-1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8848081617,
+  "lat": -33.8730167,
+  "lon": 151.2255649,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "name": "Fitzroy Gardens Public Toilet",
+    "opening_hours": "24/7",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9112269245,
+  "lat": -33.8656590,
+  "lon": 151.1917840,
+  "tags": {
+    "amenity": "cafe",
+    "bar": "yes",
+    "changing_table": "yes",
+    "check_date": "2025-02-09",
+    "contact:facebook": "https://www.facebook.com/pirramaparkkiosk",
+    "cuisine": "coffee_shop;burger;sandwich;chicken;breakfast;donut;tea;juice;salad;fries;brunch",
+    "diet:vegetarian": "yes",
+    "highchair": "yes",
+    "indoor_seating": "no",
+    "internet_access": "no",
+    "name": "Pirrama Park Kiosk",
+    "opening_hours": "Mo-Su 07:00-16:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+61 413 211 154",
+    "reservation": "no",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.facebook.com/pirramaparkkiosk",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9198643945,
+  "lat": -33.8980665,
+  "lon": 151.1795820,
+  "tags": {
+    "addr:housenumber": "330",
+    "addr:street": "King Street",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "check_date:opening_hours": "2026-06-28",
+    "contact:website": "https://www.toiletmap.gov.au/51217",
+    "fee": "no",
+    "female": "yes",
+    "lit": "yes",
+    "male": "yes",
+    "name": "Public Toilet Newtown Train Station",
+    "opening_hours": "Mo-Su 06:00-21:40",
+    "operator": "Sydney Trains",
+    "operator:type": "public",
+    "operator:website": "https://www.sydneytrains.info",
+    "phone:AU": "13 15 00",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated",
+    "unisex": "yes",
+    "website": "https://www.toiletmap.gov.au/51217",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9627823481,
+  "lat": -33.8764128,
+  "lon": 151.2098090,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "-1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9784704046,
+  "lat": -33.8678931,
+  "lon": 151.2115471,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "layer": "-2",
+    "level": "-2",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9784704106,
+  "lat": -33.8677733,
+  "lon": 151.2115615,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "layer": "-2",
+    "level": "-2",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9930827661,
+  "lat": -33.8966315,
+  "lon": 151.1955641,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10294358131,
+  "lat": -33.8593452,
+  "lon": 151.2148703,
+  "tags": {
+    "access": "private",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "male": "yes",
+    "note": "Public opening hours are the same as for Government House itself.",
+    "opening_hours": "Fr-Su 10:30-15:00",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10647621655,
+  "lat": -33.8647521,
+  "lon": 151.2171073,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "level": "0",
+    "male": "yes",
+    "operator": "Farm Cove Eatery",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738383725,
+  "lat": -33.9147488,
+  "lon": 151.1659953,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738383730,
+  "lat": -33.9144214,
+  "lon": 151.1668402,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "male": "only",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738383731,
+  "lat": -33.9144620,
+  "lon": 151.1667435,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "only",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738383734,
+  "lat": -33.9142138,
+  "lon": 151.1667193,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "male": "only",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10738383735,
+  "lat": -33.9142871,
+  "lon": 151.1665969,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "only",
+    "level": "0",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10740284756,
+  "lat": -33.9231019,
+  "lon": 151.1872770,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-2",
+    "level": "-2",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10747012935,
+  "lat": -33.9061365,
+  "lon": 151.2025053,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "layer": "-2",
+    "level": "-2",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10761212296,
+  "lat": -33.8758241,
+  "lon": 151.2223046,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Betty's Burgers",
+    "brand:wikidata": "Q109406096",
+    "changing_table": "yes",
+    "check_date": "2026-02-10",
+    "cuisine": "burger",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "highchair": "yes",
+    "indoor_seating": "yes",
+    "name": "Betty's Burgers",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.bettysburgers.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 11004960942,
+  "lat": -33.8648949,
+  "lon": 151.2166272,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11076264926,
+  "lat": -33.8850280,
+  "lon": 151.2003647,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "level": "-1",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11164211253,
+  "lat": -33.9221228,
+  "lon": 151.1656090,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "level": "0",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11166342050,
+  "lat": -33.8724761,
+  "lon": 151.2078147,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "1",
+    "name": "Galeries Toilets",
+    "opening_hours": "Fr-We 09:00-21:00; Th 09:00-22:30",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11168845254,
+  "lat": -33.8921485,
+  "lon": 151.1975180,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11171146746,
+  "lat": -33.8945733,
+  "lon": 151.1636422,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11365358181,
+  "lat": -33.8665889,
+  "lon": 151.2134914,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "level": "0",
+    "location": "indoor",
+    "male": "yes",
+    "operator": "State Library of New South Wales",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11406453431,
+  "lat": -33.8594223,
+  "lon": 151.2149397,
+  "tags": {
+    "access": "private",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "note": "Public opening hours are the same as for Government House itself.",
+    "opening_hours": "Fr-Su 10:30-15:00",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036077,
+  "lat": -33.8596470,
+  "lon": 151.2027066,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "designated"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036078,
+  "lat": -33.8596097,
+  "lon": 151.2027037,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036148,
+  "lat": -33.8595855,
+  "lon": 151.2027019,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "location": "behind fare gates",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036149,
+  "lat": -33.8596278,
+  "lon": 151.2027049,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036150,
+  "lat": -33.8596633,
+  "lon": 151.2027075,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036151,
+  "lat": -33.8596963,
+  "lon": 151.2027097,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "designated"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036152,
+  "lat": -33.8597110,
+  "lon": 151.2027102,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036153,
+  "lat": -33.8597249,
+  "lon": 151.2027112,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036154,
+  "lat": -33.8597437,
+  "lon": 151.2027128,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11586036155,
+  "lat": -33.8596787,
+  "lon": 151.2027085,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590364900,
+  "lat": -33.8729305,
+  "lon": 151.2085298,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590364901,
+  "lat": -33.8729622,
+  "lon": 151.2085212,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590364902,
+  "lat": -33.8729810,
+  "lon": 151.2085178,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590420000,
+  "lat": -33.8728999,
+  "lon": 151.2085377,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590420001,
+  "lat": -33.8729151,
+  "lon": 151.2085335,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11590420002,
+  "lat": -33.8729470,
+  "lon": 151.2085250,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11593473165,
+  "lat": -33.9147637,
+  "lon": 151.1660078,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "1",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11593473166,
+  "lat": -33.9147762,
+  "lon": 151.1660204,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "1",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11612219489,
+  "lat": -33.8671708,
+  "lon": 151.2108738,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "level": "-1",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11612564013,
+  "lat": -33.8980073,
+  "lon": 151.2004775,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11639993577,
+  "lat": -33.8551945,
+  "lon": 151.1627619,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "baby_feeding": "yes",
+    "changing_table": "yes",
+    "level:ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249922,
+  "lat": -33.8680627,
+  "lon": 151.2100552,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249923,
+  "lat": -33.8680872,
+  "lon": 151.2100531,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-1",
+    "level": "-1",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249924,
+  "lat": -33.8679103,
+  "lon": 151.2102689,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-2",
+    "level": "-2",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249925,
+  "lat": -33.8679056,
+  "lon": 151.2103258,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-2",
+    "level": "-2",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249938,
+  "lat": -33.8668998,
+  "lon": 151.2104216,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249939,
+  "lat": -33.8668973,
+  "lon": 151.2103898,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-3",
+    "level": "-3",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249953,
+  "lat": -33.8666118,
+  "lon": 151.2105107,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11644249954,
+  "lat": -33.8665859,
+  "lon": 151.2101753,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150829,
+  "lat": -33.8747954,
+  "lon": 151.2083993,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150830,
+  "lat": -33.8747838,
+  "lon": 151.2084011,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150831,
+  "lat": -33.8747645,
+  "lon": 151.2084045,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150832,
+  "lat": -33.8747518,
+  "lon": 151.2084062,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150833,
+  "lat": -33.8748082,
+  "lon": 151.2083975,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11664150835,
+  "lat": -33.8747397,
+  "lon": 151.2084075,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "indoor": "yes",
+    "layer": "-5",
+    "level": "-5",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11977996848,
+  "lat": -33.8740881,
+  "lon": 151.2012869,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12052455834,
+  "lat": -33.8655425,
+  "lon": 151.1573266,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12118086924,
+  "lat": -33.9180356,
+  "lon": 151.1941933,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12181338419,
+  "lat": -33.9074523,
+  "lon": 151.1892541,
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:street": "Huntley Street",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "changing_table": "yes",
+    "check_date:opening_hours": "2024-10-10",
+    "contact:instagram": "https://www.instagram.com/ellen18huntley/",
+    "indoor_seating": "yes",
+    "name": "Ellen",
+    "opening_hours:signed": "no",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "none",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12580189768,
+  "lat": -33.8703474,
+  "lon": 151.2212157,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12758713741,
+  "lat": -33.9109225,
+  "lon": 151.1405690,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "level": "-1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12997077127,
+  "lat": -33.8600651,
+  "lon": 151.2089896,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12997130202,
+  "lat": -33.8600528,
+  "lon": 151.2081827,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "name": "Public Toilet Nurses Walk, The Rocks",
+    "opening_hours": "24/7",
+    "unisex": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13073413607,
+  "lat": -33.8800515,
+  "lon": 151.2172043,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-08-29T06:10:56Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1084662540,
+  "lat": -33.8923582,
+  "lon": 151.2144347,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor"
+  }
+},
+{
+  "type": "node",
+  "id": 1941072355,
+  "lat": -33.9170125,
+  "lon": 151.2315794,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "University Health Service",
+    "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2059351557,
+  "lat": -33.8889939,
+  "lon": 151.2326910,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Woollahra General Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 2365229921,
+  "lat": -33.8972500,
+  "lon": 151.1788000,
+  "tags": {
+    "addr:housenumber": "327",
+    "addr:postcode": "2042",
+    "addr:street": "King Street",
+    "addr:suburb": "Newtown",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Newtown Medical Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 3513602273,
+  "lat": -33.8958138,
+  "lon": 151.1991940,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Healthcare Family Medical Centre"
+  }
+},
+{
+  "type": "node",
+  "id": 3609960853,
+  "lat": -33.8836163,
+  "lon": 151.1964366,
+  "tags": {
+    "addr:housenumber": "82",
+    "addr:street": "Mountain Street",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Ultimo Medical Practice",
+    "note": "100% Bulk Bill",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-16:00",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4258169494,
+  "lat": -33.8760368,
+  "lon": 151.2125138,
+  "tags": {
+    "addr:housenumber": "Level 3, 26",
+    "addr:postcode": "2010",
+    "addr:state": "NSW",
+    "addr:street": "College Street",
+    "amenity": "doctors",
+    "email": "info@holdsworthhouse.com.au",
+    "healthcare": "doctor",
+    "name": "Holdsworth House",
+    "opening_hours": "Mo-Su 08:00-19:00",
+    "phone": "+61 2 9331 7228",
+    "website": "https://www.holdsworthhouse.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 5099993628,
+  "lat": -33.8578750,
+  "lon": 151.1807050,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Beattie Street",
+    "amenity": "doctors",
+    "healthcare": "doctor"
+  }
+},
+{
+  "type": "node",
+  "id": 5099994323,
+  "lat": -33.8574940,
+  "lon": 151.1812820,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Balmain Villege Health"
+  }
+},
+{
+  "type": "node",
+  "id": 5111961121,
+  "lat": -33.8741693,
+  "lon": 151.2081942,
+  "tags": {
+    "amenity": "doctors",
+    "bulkbilling": "yes",
+    "check_date": "2026-07-13",
+    "healthcare": "doctor",
+    "name": "Pitt Street Medical and Skin Cancer Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 5232007277,
+  "lat": -33.8673592,
+  "lon": 151.1924467,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Star City Medical Centre"
+  }
+},
+{
+  "type": "node",
+  "id": 5323317791,
+  "lat": -33.8798215,
+  "lon": 151.1563953,
+  "tags": {
+    "addr:housenumber": "210",
+    "addr:postcode": "2040",
+    "addr:street": "Norton Street",
+    "addr:suburb": "Leichhardt",
+    "amenity": "doctors",
+    "check_date:opening_hours": "2026-04-02",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Leichhardt General Practice",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00; Su,PH off",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5323317793,
+  "lat": -33.8822211,
+  "lon": 151.1575563,
+  "tags": {
+    "addr:housenumber": "30-38",
+    "addr:postcode": "2040",
+    "addr:street": "Short Street",
+    "addr:suburb": "Leichhardt",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general;stomatology",
+    "name": "Leichhardt Medical + Dental Centre",
+    "opening_hours": "Mo 08:00-20:00; Tu-Fr 07:00-20:00; Sa,Su 08:00-19:00; PH off",
+    "operator": "Primary Health Care Limited",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5608349182,
+  "lat": -33.8918137,
+  "lon": 151.2138573,
+  "tags": {
+    "amenity": "doctors",
+    "check_date": "2026-03-21",
+    "healthcare": "doctor",
+    "name": "Doctor Krishnan Surgery"
+  }
+},
+{
+  "type": "node",
+  "id": 5631797265,
+  "lat": -33.9146153,
+  "lon": 151.2399834,
+  "tags": {
+    "addr:housenumber": "62",
+    "addr:postcode": "2031",
+    "addr:state": "NSW",
+    "addr:street": "Belmore Road",
+    "addr:suburb": "Randwick",
+    "amenity": "doctors",
+    "description": "Bulk billing available, conditions apply.",
+    "healthcare": "doctor",
+    "name": "Randwick Doctors Medical Centre",
+    "opening_hours": "Mo-Fr 08:00-18:00, Sa-Su 09:00-13:00",
+    "phone": "+61 2 8047 0988",
+    "website": "http://www.randwickdoctorsmedicalcentre.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 5795788907,
+  "lat": -33.9069618,
+  "lon": 151.2123881,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "2017",
+    "addr:state": "NSW",
+    "addr:street": "Defries Avenue",
+    "addr:suburb": "Zetland",
+    "addr:unit": "2",
+    "amenity": "doctors",
+    "check_date": "2026-06-10",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "level": "0",
+    "name": "Green Square Medical Practice",
+    "opening_hours": "Mo 08:00-18:00, Tu 09:00-18:00, We 08:00-17:00, Th 09:00-18:00, Fr 08:00-16:00, Sa 09:00-12:00",
+    "phone": "+61 2 8310 2004",
+    "source": "local knowledge",
+    "website": "https://greensquaremedical.com.au/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6367343777,
+  "lat": -33.8869575,
+  "lon": 151.2349241,
+  "tags": {
+    "addr:housenumber": "178",
+    "addr:street": "Paddington Street",
+    "amenity": "doctors",
+    "healthcare": "doctor"
+  }
+},
+{
+  "type": "node",
+  "id": 6424615564,
+  "lat": -33.8670911,
+  "lon": 151.2019808,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "dermatology",
+    "name": "Lapink Skin Lab",
+    "website": "https://lapinkskinlab.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 7727981492,
+  "lat": -33.8761234,
+  "lon": 151.1784835,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "level": "1",
+    "name": "Harold Park Medical Centre",
+    "website": "https://www.haroldparkmedicalcentre.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 8276859545,
+  "lat": -33.9025383,
+  "lon": 151.2075846,
+  "tags": {
+    "addr:country": "AU",
+    "addr:housenumber": "965",
+    "addr:postcode": "2017",
+    "addr:street": "Bourke Street",
+    "addr:unit": "Shop 4",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Green Square Health",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-13:00",
+    "phone": "+61 2 9699 8111",
+    "website": "https://gshealth.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 8398822100,
+  "lat": -33.9142674,
+  "lon": 151.2007939,
+  "tags": {
+    "addr:housenumber": "530",
+    "addr:street": "Botany Road",
+    "amenity": "doctors",
+    "description": "Bulk billing",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Botany Road Doctors",
+    "opening_hours": "Mo-Fr 08:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8398822101,
+  "lat": -33.8975307,
+  "lon": 151.2124066,
+  "tags": {
+    "addr:housenumber": "20a",
+    "addr:postcode": "2017",
+    "addr:state": "NSW",
+    "addr:street": "Danks Street",
+    "addr:suburb": "Waterloo",
+    "addr:unit": "Suite 1.12",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "dermatology",
+    "name": "Green Square Dermatology",
+    "website": "https://gsdermatology.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 8919463087,
+  "lat": -33.8522813,
+  "lon": 151.1554921,
+  "tags": {
+    "addr:housenumber": "159",
+    "addr:postcode": "2047",
+    "addr:state": "NSW",
+    "addr:street": "Victoria Road",
+    "addr:suburb": "Drummoyne",
+    "amenity": "doctors",
+    "check_date": "2026-07-16",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "DMC Medical Centre",
+    "phone": "+61 2 9819 6666",
+    "website": "https://www.dmcmedical.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 9029125995,
+  "lat": -33.8812195,
+  "lon": 151.2194414,
+  "tags": {
+    "addr:housenumber": "438",
+    "addr:street": "Victoria Street",
+    "amenity": "doctors",
+    "check_date:opening_hours": "2025-02-16",
+    "healthcare": "doctor",
+    "name": "St Vincent’s Clinic",
+    "opening_hours:signed": "no",
+    "phone": "+61 2 8382 6222",
+    "website": "https://www.stvincentsclinic.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 9329081677,
+  "lat": -33.9043374,
+  "lon": 151.1897858,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Park Sydney Medical Practice",
+    "website": "https://www.parksydneymedical.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 9395973835,
+  "lat": -33.8959520,
+  "lon": 151.1957534,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "myhealth Medical Centre"
+  }
+},
+{
+  "type": "node",
+  "id": 9567316613,
+  "lat": -33.9221377,
+  "lon": 151.2008272,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "MD Medical Centre",
+    "phone": "+61 2 9667 3542"
+  }
+},
+{
+  "type": "node",
+  "id": 9567321609,
+  "lat": -33.9227576,
+  "lon": 151.2052032,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Dr James Giallussi Family Medical Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 9567321610,
+  "lat": -33.9140505,
+  "lon": 151.2057319,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Rosebery Family Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 9570005193,
+  "lat": -33.8989305,
+  "lon": 151.1738813,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Enmore Medical Practice",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10117686030,
+  "lat": -33.8763780,
+  "lon": 151.2093409,
+  "tags": {
+    "addr:housenumber": "281",
+    "addr:street": "Elizabeth Street",
+    "amenity": "doctors",
+    "check_date": "2026-08-06",
+    "description": "Medicare bulk billing for appointments between 10am and 4pm",
+    "healthcare": "doctor",
+    "level": "0",
+    "name": "Key Health CBD South",
+    "phone": "+61 2 8262 1000",
+    "website": "https://www.keyhealth.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 10288952037,
+  "lat": -33.8825539,
+  "lon": 151.2160312,
+  "tags": {
+    "addr:housenumber": "423",
+    "addr:street": "Bourke Street",
+    "amenity": "doctors",
+    "email": "admin@dralexphoon.com",
+    "fax": "+61 2 4044 0129",
+    "healthcare": "doctor",
+    "healthcare:speciality": "breast_surgery;body_contouring;facial_rejuvenation;cosmetic_surgeon",
+    "name": "Dr Alex Phoon",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Dr Alex Phoon",
+    "operator:type": "private",
+    "phone": "+61 2 8069 8973",
+    "website": "https://www.dralexphoon.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10571700036,
+  "lat": -33.8886417,
+  "lon": 151.2318730,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Paddington Family Practice"
+  }
+},
+{
+  "type": "node",
+  "id": 10650446622,
+  "lat": -33.8715808,
+  "lon": 151.2252699,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Macleay Street Medical Practice",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-12:00",
+    "phone": "+61 2 9358 5511",
+    "website": "http://www.macleaystmedical.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 10724720796,
+  "lat": -33.8555087,
+  "lon": 151.1632357,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "level:ref": "G",
+    "name": "Birkenhead Medical Centre",
+    "opening_hours": "Mo-Fr 08:00-18:00; Su 09:00-13:00; Sa,PH off"
+  }
+},
+{
+  "type": "node",
+  "id": 11152253786,
+  "lat": -33.8733716,
+  "lon": 151.2254550,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "True Health Medical Practice",
+    "website": "https://www.truehealthmedical.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 11199859545,
+  "lat": -33.8765219,
+  "lon": 151.2211812,
+  "tags": {
+    "amenity": "doctors",
+    "check_date": "2025-09-28",
+    "healthcare": "doctor",
+    "name": "Darlinghurst Medical Centre",
+    "website": "https://darlinghurstmedical.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 11242213620,
+  "lat": -33.8690722,
+  "lon": 151.2249411,
+  "tags": {
+    "amenity": "doctors",
+    "check_date": "2026-03-21",
+    "healthcare": "doctor",
+    "healthcare:speciality": "psychiatry",
+    "name": "DBT Psychology Clinic",
+    "website": "https://www.dbtpsychologyclinic.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11708077065,
+  "lat": -33.8738008,
+  "lon": 151.2253274,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "orthopaedics",
+    "name": "Dr Gordon Slater",
+    "website": "https://orthopaedic-surgeon.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 11806446146,
+  "lat": -33.8685896,
+  "lon": 151.2119145,
+  "tags": {
+    "addr:floor": "10",
+    "addr:housenumber": "229",
+    "addr:street": "Macquarie Street",
+    "addr:unit": "1004",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "vaccination",
+    "name": "Travel Vaccination Clinic",
+    "website": "https://travelvaccinationclinic.com.au"
+  }
+},
+{
+  "type": "node",
+  "id": 11824294647,
+  "lat": -33.8787737,
+  "lon": 151.2012627,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "MyHealth medical centre",
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 09:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11898341720,
+  "lat": -33.9125831,
+  "lon": 151.1539297,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "podiatry",
+    "name": "Feet First Podiatry Services"
+  }
+},
+{
+  "type": "node",
+  "id": 11898347290,
+  "lat": -33.9149686,
+  "lon": 151.1516926,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "name": "Dr. Minh-Thu Nguyen"
+  }
+},
+{
+  "type": "node",
+  "id": 11955343216,
+  "lat": -33.8696721,
+  "lon": 151.1962786,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:postcode": "2009",
+    "addr:state": "NSW",
+    "addr:street": "Union Street",
+    "addr:suburb": "Pyrmont",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Pyrmont Doctors",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "website": "https://pyrmontdoctors.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12298854700,
+  "lat": -33.8719135,
+  "lon": 151.2091784,
+  "tags": {
+    "addr:housenumber": "151",
+    "addr:street": "Castlereagh Street",
+    "addr:unit": "8",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "level": "0",
+    "mapillary": "1961816260996979",
+    "name": "Myhealth Medical Centre",
+    "phone": "+61 2 8197 3388",
+    "website": "https://www.myhealth.net.au/clinics/sydney-cbd/"
+  }
+},
+{
+  "type": "node",
+  "id": 12385354720,
+  "lat": -33.8731500,
+  "lon": 151.2235105,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general;vaccination",
+    "name": "Kings Cross Clinic",
+    "website": "https://kingscrossclinic.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 12388897561,
+  "lat": -33.8736829,
+  "lon": 151.2230028,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Fountain Medical Practice",
+    "website": "https://fountainhealth.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 12472801908,
+  "lat": -33.9112770,
+  "lon": 151.1557719,
+  "tags": {
+    "amenity": "doctors",
+    "check_date:opening_hours": "2026-07-04",
+    "healthcare": "doctor",
+    "name": "Phōng Mach Surgery",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13300460701,
+  "lat": -33.9038838,
+  "lon": 151.1428085,
+  "tags": {
+    "addr:housenumber": "556-558",
+    "addr:postcode": "2203",
+    "addr:street": "Marrickville Road",
+    "addr:unit": "1",
+    "amenity": "doctors",
+    "email": "medkaremc@gmail.com",
+    "name": "Medkare Medical Centre",
+    "opening_hours": "Mo-Fr 08:30-17:30",
+    "phone": "+61 2 9568 6600",
+    "website": "https://medkaremc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13347341354,
+  "lat": -33.8741415,
+  "lon": 151.1962407,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "podiatry",
+    "name": "HEQD to TOE HEALTH"
+  }
+},
+{
+  "type": "node",
+  "id": 13653597028,
+  "lat": -33.9031878,
+  "lon": 151.1788931,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Alice St GP Rooms",
+    "website": "https://www.alicestreetgp.com.au/"
+  }
+},
+{
+  "type": "node",
+  "id": 13680802719,
+  "lat": -33.8521643,
+  "lon": 151.1552966,
+  "tags": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "radiology",
+    "name": "I-MED Radiology"
+  }
+},
+{
+  "type": "node",
+  "id": 13718917412,
+  "lat": -33.8949292,
+  "lon": 151.1809310,
+  "tags": {
+    "addr:housenumber": "280",
+    "addr:postcode": "2042",
+    "addr:state": "NSW",
+    "addr:street": "Church Street",
+    "addr:suburb": "Newtown",
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Church Street Medical Practice",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+    "phone": "+61 2 9516 2944",
+    "website": "https://www.churchstreetmedical.com.au/"
+  }
+}
+
+  ]
+}
