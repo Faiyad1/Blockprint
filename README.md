@@ -2,7 +2,7 @@
 
 **SYNCS Hack 2026 · Theme: Blocks that make up the world**
 
-**Live demo: https://faiyad1.github.io/Hackathon26/**
+**Live demo: https://faiyad1.github.io/Blockprint/**
 
 Sydney is literally made of blocks — the ABS Mesh Blocks that make up every suburb. Blockprint scores each one for accessibility and livability from open data (transit, footpaths, ramps, toilets, green space) and renders the city as a 3D landscape where block height and color show the score. Switch persona — wheelchair user, parent with a pram, low vision — and the same city transforms. Click any block to see the single cheapest fix that would raise its score the most.
 
