@@ -78,4 +78,8 @@ Optional: photorealistic Google 3D Tiles instead of OSM buildings — put a Goog
 
 ## Data sources
 
-ABS ASGS Mesh Blocks · Transport for NSW Open Data (GTFS) · National Public Toilet Map (data.gov.au) · © OpenStreetMap contributors (ODbL)
+ABS ASGS Mesh Blocks · Transport for NSW Open Data (GTFS) · National Public Toilet Map (data.gov.au) · © OpenStreetMap contributors (ODbL) · Landmark photos & summaries: Wikipedia / Wikimedia Commons
+
+---
+
+![Blockprint](Thumbnail.png)

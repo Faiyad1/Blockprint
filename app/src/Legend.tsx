@@ -6,7 +6,10 @@ export default function Legend() {
         <span>0 — hostile</span>
         <span>100 — great</span>
       </div>
-      <p>Block height &amp; color = livability score for the selected persona. Click a block for the why.</p>
+      <p>Block height &amp; color = livability score for the selected persona.</p>
+      <ul className="legend-notes">
+        <li>Parks are excluded, as their exceptionally high scores made them outliers.</li>
+      </ul>
     </div>
   );
 }

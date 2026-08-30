@@ -87,7 +87,7 @@ export default function App() {
         showCulture={showCulture}
       />
       <header className="hud-top">
-        <h1>Blockprint</h1>
+        <h1>BLOCK<span className="print-pink">PRINT</span></h1>
         <p className="tag">The blocks that make up Sydney — scored for who you are</p>
         <div className="bar-row">
           <PersonaBar personas={PERSONAS} active={persona} onPick={pickPersona} />

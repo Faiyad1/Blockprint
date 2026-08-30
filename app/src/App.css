@@ -17,7 +17,11 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
   pointer-events: none;
   background: linear-gradient(rgba(10, 12, 16, 0.75), transparent);
 }
-.hud-top h1 { margin: 0; font-size: 1.4rem; letter-spacing: 0.02em; }
+.hud-top h1 {
+  margin: 0; font-size: 1.4rem; letter-spacing: 0.02em; font-weight: 800;
+  transform: scaleX(0.85); transform-origin: left center;
+}
+.print-pink { color: #ff5ca8; }
 .hud-top .tag { margin: 2px 0 10px; color: var(--muted); font-size: 0.85rem; }
 
 .mode-toggle {
@@ -155,6 +159,8 @@ html, body, #root, .app { margin: 0; height: 100%; overflow: hidden; }
 }
 .legend-labels { display: flex; justify-content: space-between; margin: 4px 0; }
 .legend p { margin: 6px 0 0; }
+.legend-notes { margin: 6px 0 0; padding-left: 16px; }
+.legend-notes li { margin: 2px 0; }
 
 .status {
   position: absolute; bottom: 16px; right: 16px;
