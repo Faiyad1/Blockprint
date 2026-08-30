@@ -5,6 +5,7 @@ import PersonaBar from "./PersonaBar";
 import BlockPanel from "./BlockPanel";
 import PlacePanel from "./PlacePanel";
 import WeightsPanel from "./WeightsPanel";
+import Onboarding from "./Onboarding";
 import Legend from "./Legend";
 import personasData from "./personas.json";
 import type { Persona, Sub } from "./scoring";
@@ -15,6 +16,7 @@ const PERSONAS = personasData as Persona[];
 export default function App() {
   const [blocks, setBlocks] = useState<FeatureCollection | null>(null);
   const [persona, setPersona] = useState<Persona>(PERSONAS[0]);
+  const [showIntro, setShowIntro] = useState(true);
   const [selected, setSelected] = useState<Feature | null>(null);
   const [selectedPlace, setSelectedPlace] = useState<Feature | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -128,6 +130,15 @@ export default function App() {
       )}
       {selectedPlace && (
         <PlacePanel place={selectedPlace} onClose={() => setSelectedPlace(null)} />
+      )}
+      {showIntro && (
+        <Onboarding
+          personas={PERSONAS.filter((p) => p.core)}
+          onDone={(p) => {
+            pickPersona(p);
+            setShowIntro(false);
+          }}
+        />
       )}
       {!blocks && !error && <div className="status">loading blocks…</div>}
       {error && <div className="status error">{error}</div>}
